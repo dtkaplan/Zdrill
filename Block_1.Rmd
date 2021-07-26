@@ -1,122 +1,122 @@
-**legitnames1** Is `xx` a legitimate name in R? [Day-2-A]
+**legitnames1** Is `xx` a legitimate name in R? [Group 2]
 
 [a] True
 [] False
 
-**legitnames2** Is `x_x` a legitimate name in R? [Day-2-A]
+**legitnames2** Is `x_x` a legitimate name in R? [Group 2]
 
 [a] True
 [] False
 
-**legitnames3** Is `-x` a legitimate name in R? [Day-2-A]
+**legitnames3** Is `-x` a legitimate name in R? [Group 2]
 
 [] True
 [a] False [The minus sign are other such symbols are not allowed characters in an R name.]
 
-**legitnames4** Is `3x` a legitimate name in R? [Day-2-A]
+**legitnames4** Is `3x` a legitimate name in R? [Group 2]
 
 [] True
 [a] False [Names should start with a letter]
 
-**legitnames5** Is `x3` a legitimate name in R? [Day-2-A]
+**legitnames5** Is `x3` a legitimate name in R? [Group 2]
 
 [a] True [Numbers are OK in names, so long as the first character is a letter]
 [] False
 
-**legitnames6** Is `sqrt` a legitimate name in R? [Day-2-A]
+**legitnames6** Is `sqrt` a legitimate name in R? [Group 2]
 
 [a] True [In fact, it is the name of an oft-used function in R.]
 [] False
 
-**legitnames7** Is `x + y` a legitimate name in R? [Day-2-A]
+**legitnames7** Is `x + y` a legitimate name in R? [Group 2]
 
 [] True
 [a] False [`x + y` is an R expression that uses names, but the expression is not itself a name.]
 
-**legitnames8** Is `3 * x` a legitimate name in R? [Day-2-A]
+**legitnames8** Is `3 * x` a legitimate name in R? [Group 2]
 
 [] True
 [a] False [`*` and <space> are not acceptable characters in a name.]
 
-**legitnames9** Is `xprime` a legitimate name in R? [Day-2-A]
+**legitnames9** Is `xprime` a legitimate name in R? [Group 2]
 
 [a] True
 [] False
 
-**legitnames10** Is `x prime` a legitimate name in R? [Day-2-A]
+**legitnames10** Is `x prime` a legitimate name in R? [Group 2]
 
 [] True
-[a] False [<space> is not a legitimate character in a name.]
+[a] False [Names cannot have blank spaces internally.]
 
-**legitnames11** Is `dx` a legitimate name in R? [Day-2-A]
-
-[a] True
-[] False
-
-**legitnames12** Is `xx` a legitimate name in R? [Day-2-A]
+**legitnames11** Is `dx` a legitimate name in R? [Group 2]
 
 [a] True
 [] False
 
-**legitnames13** Is `dx_f` a legitimate name in R? [Day-2-A]
+**legitnames12** Is `xx` a legitimate name in R? [Group 2]
 
 [a] True
 [] False
 
-**assign1** What's wrong with this assignment statement?<br> `x < 4` [2-B]
+**legitnames13** Is `dx_f` a legitimate name in R? [Group 2]
+
+[a] True
+[] False
+
+**assign1** What's wrong with this assignment statement?<br> `x < 4` [Group 2]
 
 [] Nothing
 [a] It's missing part of the `<-` token.
 []  `x` is an improper name.
 
-**assign2** What's wrong with this assignment statement?<br> `3*x <- 4` [2-B]
+**assign2** What's wrong with this assignment statement?<br> `3*x <- 4` [Group 2]
 
 [] Nothing [The item to the left of `<-` needs to be a valid name. `3*x` is not.]
 [] It should use addition instead of multiplication.
 [a] The item to the left of `<-` needs to be a name [`3 * x` is an instruction to multiply 3 times x. It is not a name.]
 [] There's no `x` on the right-hand side of the assignment arrow.
 
-**assign3** What's wrong with this assignment statement?<br> `x -> 3+4` [2-B]
+**assign3** What's wrong with this assignment statement?<br> `x -> 3+4` [Group 2]
 
 [] Nothing
 [] You can't use addition in an assignment statement. [You can, but it has to be on the right side of the assignment, where you construct the value to be assigned to the name on the left side.]
 [a] The assignment has to point toward the **name**, not the *value*
 
-**assign4** We can write something like $$f(x) \equiv x^2$$ in mathematical notation. Is it legit in R to write `f(x) <- x^2` ? [2-B]
+**assign4** We can write something like <br>$f(x) \equiv x^2$ </br> in mathematical notation. Is it legit in R to write `f(x) <- x^2` ? [Group 2]
 
 [] Yes, it's fine.
 [a] `f(x)` is not a valid name in R.
 [] Almost. You need to use \(\equiv\) instead of `<-` . [There's no symbol \(\equiv\) on the keyboard or recognized in the R language.]
 
-**arg11** Will this statement work in R? <br>`sin(4)` [3-A]
+**arg11** Will this statement work in R? <br>`sin(4)` [Group 3]
 
 [a] Yes
 [] No
 
-**arg12** Will this statement work in R? <br>`Sin(4)`</br> [3-A]
+**arg12** Will this statement work in R? <br>`Sin(4)`</br> [Group 3]
 
 [] Yes [It would except for the capital S. R treats capital and lower-case letters as completely different, so the name `abby` is utterly distinct from `Abby` or `aBBy`, etc.]
 [a] No
 
-**arg13** Will this statement work in R to calculate $\sin(4)$? <br> `sin[4]` [3-A]
+**arg13** Will this statement work in R to calculate $\sin(4)$? <br> `sin[4]` [Group 3]
 
 [] Yes [You must always use parentheses, not square braces, to carry the argument to the function.]
 [a] No [Only parentheses can be used to hand an argument off to a function.]
 
-**arg14** What is the output from the command `log(-1)` ? [3-A]
+**arg14** What is the output from the command `log(-1)` ? [Group 3]
 
 [] 0 [Sorry, but $\ln(1) \rightarrow 0$, not $\ln(-1)$.
 [] An error message. [A warning is different from an error.]
 [] -Inf
 [a] NaN [\(-1\) is outside of the domain of the logarithm function.]
 
-**arg15** What is the output from the command `log(0)` ? [3-A]
+**arg15** What is the output from the command `log(0)` ? [Group 3]
 
 [] 0
 [a] -Inf [There's a vertical asymptote involved here, so the programmers who wrote `log()` decided to tell you which direction it goes in.]
 [] NaN
 
-**arg16** Which of these phrases is most appropriate for describing what the R command `z <- sin(17)` is doing?  [3-A]
+**arg16** Which of these phrases is most appropriate for describing what the R command `z <- sin(17)` is doing?  [Group 3]
 
 [] Gives a name to a value.
 [a] Applies a function to an input to produce an output.
@@ -124,7 +124,7 @@
 [] The name of an object.
 [] It's invalid as a command.
 
-**arg17** Which of these phrases is most appropriate for describing what the R command `sin(17)` is doing?  [3-A]
+**arg17** Which of these phrases is most appropriate for describing what the R command `sin(17)` is doing?  [Group 3]
 
 [] Gives a name to a value.
 [a] Applies a function to an input to produce an output.
@@ -132,7 +132,7 @@
 [] The name of an object.
 [] It's invalid as a command.
 
-**arg18** Which of these phrases is most appropriate for describing what the R command `z <- x` is doing?  [3-A]
+**arg18** Which of these phrases is most appropriate for describing what the R command `z <- x` is doing?  [Group 3]
 
 [] Gives a name to a value.
 [] Applies a function to an input to produce an output.
@@ -140,7 +140,7 @@
 [] The name of an object.
 [] It's invalid as a command.
 
-**arg10** Which of these phrases is most appropriate for describing what the R command `fred` is doing?  [3-A]
+**arg10** Which of these phrases is most appropriate for describing what the R command `fred` is doing?  [Group 3]
 
 [] Gives a name to a value.
 [] Applies a function to an input to produce an output.
@@ -148,36 +148,64 @@
 [a] The name of an object. [When you give the name of an object as a stand-alone command, R prints out the value of that object.]
 [] It's invalid as a command.
 
-**arg11** In the statement `pnorm(3, mean=4, sd=6 )`, what is `pnorm`?  [3-A]
+**arg11** In the statement `pnorm(3, mean=4, sd=6 )`, what is `pnorm`?  [Group 3]
 
 [a] The name of the function being applied to the three arguments.
 [] A named argument
 [] An argument to be used without a name.
 
-**arg12** In the statement `pnorm(3, mean=4, sd=6 )`, what is `mean=4`?  [3-A]
+**arg12** In the statement `pnorm(3, mean=4, sd=6 )`, what is `mean=4`?  [Group 3]
 
 [] The name of the function being applied to the three arguments.
 [a] A named argument
 [] An argument to be used without a name.
 
-**arg13** In the statement `pnorm(3, mean=4, sd=6 )`, what is `3`?  [3-A]
+**arg13** In the statement `pnorm(3, mean=4, sd=6 )`, what is `3`?  [Group 3]
 
 [] The name of the function being applied to the three arguments.
 [] A named argument
 [a] An argument to be used without a name.
 
-**arg14** Will the statement `pnorm(x=3, mean=4, sd=6)` give the same result as `pnorm(3, mean=4, sd=6)` ?  [3-A]
+**arg14** Will the statement `pnorm(x=3, mean=4, sd=6)` give the same result as `pnorm(3, mean=4, sd=6)` ?  [Group 3]
 
 [] Yes, same arguments to the same function means the output will be the same. [In general, this is good reasoning. ]
 [a] No. The name of the first argument to `pnorm()` is not `x`. [You can't always know what are the names of the arguments to the basic built-in functions. So use them without naming the argument.]
 
-**arg15** Will the statement `pnorm(3, mean=4, sd=6)` give the same result as `pnorm(3, sd=6, mean=4)`?  [3-A]
+**arg15** Will the statement `pnorm(3, mean=4, sd=6)` give the same result as `pnorm(3, sd=6, mean=4)`?  [Group 3]
 
 [a] Yes. [The names for the arguments tell R how each argument should be used in the function.]
 [] No. The arguments are different. [When an argument is used with it's name, it can go anywhere in the argument list.]
 
-**arg16** Will the statement `pnorm(3, mean=4, sd=6)` give the same result as `pnorm(3, sd=4, mean=6)`?  [3-A]
+**arg16** Will the statement `pnorm(3, mean=4, sd=6)` give the same result as `pnorm(3, sd=4, mean=6)`?  [Group 3]
 
 [] Yes [Look carefully at the value given to each argument.]
 [a] No [In the first statement, the mean is set to 4, while in the second it's set to 6.]
 
+**arg17** What is the value of `sin(180)`? [Group 3]
+
+[a] -0.80 [The argument to trigonometric functions is interpreted by R to be in **radians**.]
+[] 0 [This would be right if sine interpreted its argument in *degrees*. But arguments to the trigonometric functions in R and most other languages are in **radians**." $\sin(\pi) = 0$.]
+[] 0.80 [You've got the sign incorrect.]
+[] 1 [The argument to `sin()` is in radians.]
+
+**desc01** What is the value of `16^1/2`? [Group 4]
+
+[] 4 [This would be right if the exponent were in grouping parentheses, e.e. `16^(1/2)`. Without those parentheses, the computer reads `16^1/2` as `(16^1) / 2`]
+[a] 8 
+
+**desc02** What is the value of `16^(1/2)`? [Group 4]
+
+[a] 4 [Since the `(1/2)` is in grouping parentheses, the expression is asking for 16 to the one-half power, in other words the square root of 16.]
+[8]
+
+**desc03** Suppose `n <- 3`. What will be the value of `2^n-1`? [Group 4]
+
+[] 4 [Without grouping parentheses around `n-1` the computer interprets `2^n-1` as `(2^n) - 1`]
+[a] 7
+[] 8 [What about the `-1` in the expression?]
+
+**desc04** Suppose `n <- 3`. What will be the value of `2^(n-1)`? [Group 4]
+
+[a] 4 
+[] 7 [The grouping parentheses around `(n-1)` mean that the calculation is effectively `2^2`, giving 4.]
+[] 8 [What about the `-1` in the expression?]
