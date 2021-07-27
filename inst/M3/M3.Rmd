@@ -3,3 +3,25 @@ title: "Graphics for M3 questions"
 author: "Daniel Kaplan"
 ---
 
+```{r include=FALSE}
+library(mosaic)
+library(mosaicCalc)
+save_graph <- function(P, filename) {
+  ggsave(filename, P, device="png", units="cm", width=10, scale=1, height=6, dpi="screen")
+}
+
+```
+
+```{r}
+slice_plot(exp(x) ~ x, domain(x=c(1,2))) %>% save_graph("M3-12-01.png")
+slice_plot(sin(2*x) ~ x, domain(x = c(0,3))) %>% save_graph("M3-12-02.png")
+slice_plot(log(x) ~ x, domain(x=c(1,2))) %>% save_graph("M3-12-03.png")
+slice_plot(log(x) ~ x, domain(x=c(-1,2)), npts=300) %>% save_graph("M3-14-01.png")
+slice_plot(exp(x) ~ x, domain(x=c(-4,2)), npts=300) %>% save_graph("M3-14-02.png")
+slice_plot(1/x ~ x, domain(x=c(.1,2)), npts=300) %>% 
+  slice_plot(1/x ~ x, domain(x=c(-2, -.1)), npts=300) %>%
+  save_graph("M3-14-03.png")
+slice_plot(pnorm(x) ~ x, domain(x=c(-4, 4))) %>% save_graph("M3-14-04.png")
+slice_plot(x^2 ~ x, domain(x=c(-3,3))) %>% save_graph("M3-14-05.png")
+slice_plot(sin(x) ~ x, domain(x=c(-3,3))) %>% save_graph("M3-14-05.png")
+```
