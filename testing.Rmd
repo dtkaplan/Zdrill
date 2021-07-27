@@ -27,7 +27,7 @@
 [a] 9
 
 
-**intro5** What is the **change** in the value of $f()$ when the input goes from 2 to 4? Assume $f(x) \equiv 2 x + 1\$    [Group 1]
+**intro5** What is the **change** in the value of $f()$ when the input goes from 2 to 4? <br>Assume $f(x) \equiv 2 x + 1$    [Group 1]
 
 [] -2
 [] -4
@@ -36,7 +36,7 @@
 [] 9
 
 
-**intro6**  What is the **rate of change** in the value of $f()$ when the input goes from 2 to 4? Assume $f(x) \equiv 2 x + 1\$   [Group 1]
+**intro6**  What is the **rate of change** in the value of $f()$ when the input goes from 2 to 4? <br>Assume $f(x) \equiv 2 x + 1$   [Group 1]
 
 [] -2
 [] -4
@@ -45,7 +45,7 @@
 [] 9
 
 
-**intro7** What is the **change** in the value of $f()$ when the input goes from 4 to 2? Assume $f(x) \equiv 2 x + 1\$   [Group 1]
+**intro7** What is the **change** in the value of $f()$ when the input goes from 4 to 2? <br>Assume $f(x) \equiv 2 x + 1$   [Group 1]
 
 [] -2
 [a] -4
@@ -54,7 +54,7 @@
 [] 9
 
 
-**intro8** What is the **rate of change** in the value of $f()$ when the input goes from 4 to 2? Assume $f(x) \equiv 2 x + 1\$   [Group 1]
+**intro8** What is the **rate of change** in the value of $f()$ when the input goes from 4 to 2? <br>Assume $f(x) \equiv 2 x + 1$   [Group 1]
 
 [] -2
 [] -4
