@@ -261,7 +261,7 @@
 [] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-02.png"> [This is concave down toward the left and concave up toward the right.]
 [] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-03.png"> [This is concave down.] 
 
-**M3-13** Which of these functions has a **vertical** asymptote? [M33]
+**M3-13** Which of these functions has a **vertical** asymptote? [M3]
 
 [+] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-01.png"> 
 [] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-05.png"> [The $\sin()$ function does not have a vertical or horizontal asymptote.]
