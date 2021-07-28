@@ -255,7 +255,7 @@
 [] Negative numbers
 [] No numbers are missing.
 
-**M3-12** Which of these functions is **concave up** over the domain shown in the graph? [M33]
+**M3-12** Which of these functions is **concave up** over the domain shown in the graph? [M3]
 
 [+] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-01.png"> 
 [] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-02.png"> [This is concave down toward the left and concave up toward the right.]
@@ -410,25 +410,25 @@
 [] 0.80 [You've got the sign incorrect.]
 [] 1 [The argument to `sin()` is in radians.]
 
-**desc01** What is the value of `16^1/2`? [Group 4]
+**desc01** What is the value of `16^1/2`? [M4]
 
 [] 4 [This would be right if the exponent were in grouping parentheses, e.e. `16^(1/2)`. Without those parentheses, the computer reads `16^1/2` as `(16^1) / 2`]
 [a] 8 
 
-**desc02** What is the value of `16^(1/2)`? [Group 4]
+**desc02** What is the value of `16^(1/2)`? [M4]
 
 
 [a] 4 [Since the `(1/2)` is in grouping parentheses, the expression is asking for 16 to the one-half power, in other words the square root of 16.]
 [] 8
 
-**desc03** Suppose `n <- 3`. What will be the value of `2^n-1`? [Group 4]
+**desc03** Suppose `n <- 3`. What will be the value of `2^n-1`? [M4]
 
 
 [] 4 [Without grouping parentheses around `n-1` the computer interprets `2^n-1` as `(2^n) - 1`]
 [a] 7
 [] 8 [What about the `-1` in the expression?]
 
-**desc04** Suppose `n <- 3`. What will be the value of `2^(n-1)`? [Group 4]
+**desc04** Suppose `n <- 3`. What will be the value of `2^(n-1)`? [M4]
 
 [a] 4 
 [] 7 [The grouping parentheses around `(n-1)` mean that the calculation is effectively `2^2`, giving 4.]
