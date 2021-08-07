@@ -29,8 +29,8 @@
 
 **intro5** What is the **change** in the value of $f()$ when the input goes from 2 to 4? <br>Assume $f(x) \equiv 2 x + 1$    [M1]
 
-[] -2
 [] -4
+[] -2
 [] 2
 [a] 4
 [] 9
@@ -41,7 +41,7 @@
 [] -2
 [] -4
 [a] 2
-[] 4
+[] 4 [You've calculated the net change, not the rate of change.]
 [] 9
 
 
@@ -84,7 +84,7 @@
 [] -2
 [] 0.3
 [] 2
-[+] 3 [The rate of change is $$\frac{f(3.1) - f(3)}{3.1 - 3}$$]
+[a] 3 [The rate of change is $$\frac{f(3.1) - f(3)}{3.1 - 3}$$]
 [] 10
 
 
@@ -279,6 +279,18 @@
 [a] At $x=1$
 [] At 20 as $x \rightarrow \pm\infty$ [For **horizontal** asymptotes, the description takes this form, but for vertical asymptotes specify the value of the input at which the function value skyrockets.]
 
+**M3-16a** Does this function have an **inflection point**? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-03.png"> [M3]
+
+[] yes [But there's no spot where the function switches from concave up to concave down.]
+[a] no [The function is concave down and never switches to concave up.]
+[] can't tell [Yes you can. You can see the curvature pretty easily on the graph.]
+
+**M3-16b** Does this function have an **inflection point**? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-04.png"> [M3]
+
+[a] yes [The function is concave up to the left of $x=0$, and concave down to the right. The concavity c70hanges at $x=0$ (although the exact point is hard to make out in the graph). A point where the concavity changes is an inflection point.]
+[] no [The concavity changes from positive on the left of the graph to negative on the right. So there must be an inflection point in between.]
+[] can't tell [Yes you can. You can see the curvature pretty easily on the graph.]
+
 **M3-17** For this function <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-06.png"></br> where is the **horizontal** asymptote located? [M3]
 
 [] At $x=0$ [We're looking for a **horizontal** asymptote. This is a description of a **vertical** asymptote.]
@@ -312,46 +324,46 @@
 [] A function name
 [] An input name [A subscript (like $_0$ here) or non-numeric superscript (like $^\star$) on what would otherwise be an input name will be instead a **constant**.]
 
-**M3-notation-2** Using our notation conventions from the textbook, which one of the following kinds of things is $t^\star?$ [M3]
+**M4-notation-2** Using our notation conventions from the textbook, which one of the following kinds of things is $t^\star?$ [M4]
 
 [a] A constant
 [] A function name
 [] An input name [A subscript (like $_0$ here) or non-numeric superscript (like $^\star$) on what would otherwise be an input name will be instead a **constant**.]
 
-**M3-notation-3** Using our notation conventions from the textbook, which one of the following kinds of things is $B ?$ [M3]
+**M4-notation-3** Using our notation conventions from the textbook, which one of the following kinds of things is $B ?$ [M4]
 
 [a] A constant
 [] A function name
 [] An input name [The letters from the start of the alphabet, a-d, or A-D will refer to a **constant**. ]
 
-**M3-notation-4** Using our notation conventions from the textbook, which one of the following kinds of things is $F() ?$ [M3]
+**M4-notation-4** Using our notation conventions from the textbook, which one of the following kinds of things is $F() ?$ [M4]
 
 [] A constant
 [a] A function name [Our standard pronouns for functions are $f(), g(), h()$ and $F(), G(), H()$]
 [] An input name 
 
-**M3-notation-5** Using our notation conventions from the textbook, which one of the following kinds of things is $u ?$ [M3]
+**M4-notation-5** Using our notation conventions from the textbook, which one of the following kinds of things is $u ?$ [M4]
 
 [] A constant
 [] A function name 
 [a] An input name [Letters from the end of the alphabet, $u, v, w, x, y, z$, generally refer to an input to a function. But, remember, something like $x_0$ will always be a constant.]
 
-**M3-notation-6** Can function names be multiple letters, e.g. `g3()` or `altitude()`? [M3]
+**M4-notation-6** Can function names be multiple letters, e.g. `g3()` or `altitude()`? [M4]
 
 [a] Yes [And they often do. Almost all R functions have multi-letter names, like `exp()`, `sin()`, `dnorm()`, and such. When you are building a model, it's helpful to use *mnemonic* function names rather than the usual pronouns like $f(), g()$, an $h()$. We use the short pronouns throughout the book whenever we are discussing general mathematical properties rather than specific models.]
 [] No
 
-**M3-notation-7** Can function names have subscripts or superscripts, like $g_0()$ or  $f'() ?$ [M3]
+**M4-notation-7** Can function names have subscripts or superscripts, like $g_0()$ or  $f'() ?$ [M4]
 
 [a] Yes [We'll use names like $g_0()$, $g_1()$ in sequence when we're discussing a set of functions that are very closely related, such as refinements?]
 [] No
 
-**M3-notation-8** In the book, will input names have subscripts, like $x_0$ or  $u_2 ?$ [M3]
+**M4-notation-8** In the book, will input names have subscripts, like $x_0$ or  $u_2 ?$ [M4]
 
 [] Yes 
 [a] No [In the textbook, we try to reserve names like $x_0$ or $u_2$ for **constants**. But mathematics usage generally doesn't always adopt this helpful convention.]
 
-**M3-notation-9** In the book, what is meant by the word "**variable**"? [M3]
+**M4-notation-9** In the book, what is meant by the word "**variable**"? [M4]
 
 [] It's the same as input. [Use **input** rather than variable! Even if you're used to calling quantities like $x$ and $y$ variables, it's a confusing practice since it can mean so many different things. In calculus, in this course, we'll try to be strict about using the words **input** and **output**]
 [] It's the same as output.
