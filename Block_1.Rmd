@@ -519,7 +519,7 @@
 [] `slice_plot(log(x) ~ x, domain(x=c(0; 10)))` [The arguments to `c()` are illegally separated by a semi-colon rather than the mandated comma.]
 [] `slice_plot(dnorm(y)) ~ x, domain(y=c(-3,3)))` [The `x` on the right-hand side of the tilde expression is inconsistent with the use of `y` as the input name elsewhere in the command.]
 
-**rev1-01** Which of these does the symbol $y_0$ suggest using our CalcZ notation conventions?[rev1]
+**rev1-01** Which of these does the symbol $y_0$ suggest using our CalcZ notation conventions? [rev1]
 
 [+] a constant
 [] an input to a function
