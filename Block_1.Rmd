@@ -545,7 +545,7 @@
 [+] the function name [Usually, we write function names with parentheses, like $g()$, just as a reminder that the name refers to a function.]
 [] it's nonsense
 
-**rev1-04** Given the definition $pressure(H) \equiv exp(-.1 H)$, which of these does the symbol $H$ suggest using our CalcZ notation conventions? [rev1]
+**rev1-04** Given the definition $pressure(H) \equiv \exp(- H/10)$, which of these does the symbol $H$ suggest using our CalcZ notation conventions? [rev1]
 
 [] a constant
 [+] the input to the function [Even though $H$ is not a name we will use frequently for the input to a function, whenever you see $f(H) \equiv ...$, you know that $H$ is being explicitly declared to be a function.]
