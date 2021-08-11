@@ -508,7 +508,7 @@
 **M4-02** Which command made this plot? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-04.png"></br> [M4]
 
 [+] `slice_plot(pnorm(x) ~ x, domain(x=c(-4, 4)))`
-[] `slice_plot(pnorm(x) ~ x, domain(x=(-4, 4))` [The end-points of the domain need to be collected by the function `c()`, so the argument to `domain()` should be `x=c(-4,4)` not `x=(-4, 4)]
+[] `slice_plot(pnorm(x) ~ x, domain(x=(-4, 4))` [The end-points of the domain need to be collected by the function `c()`, so the argument to `domain()` should be `x=c(-4,4)` not `x=(-4, 4)`]
 [] `slice_plot(pnorm(x) ~ y, domain(x=c(-4, 4)))` [The name of the input to the function being graphed, `x` here, needs to be stated on the right-hand side of the tilde expression. So use `pnorm(x) ~ x` rather than `pnorm(x) ~ y`]
 [] None of them correspond to the plot.
 
