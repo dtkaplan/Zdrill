@@ -577,68 +577,68 @@
 [] the function name
 [] it's nonsense
 
-**ref1-08** In `g <- makeFun(3*z + 2 ~ z)`, which is the name of the input to the function `g()`? [rev1]
+**rev1-08** In `g <- makeFun(3*z + 2 ~ z)`, which is the name of the input to the function `g()`? [rev1]
 
 [] $x$
 [] $y$
 [a] $z$
 [] $t$
 
-**ref1-09** Which of the following values is **in the domain** of the function $\ln()$? [rev1]
+**rev1-09** Which of the following values is **in the domain** of the function $\ln()$? [rev1]
 
 [] -1
 [] 0
 [a] 1
 [] All of them
 
-**ref1-10** Which of the following values is **in the domain** of the function $x^2$? [rev1]
+**rev1-10** Which of the following values is **in the domain** of the function $x^2$? [rev1]
 
 [] -1
 [] 0
 [] 1
 [a] All of them
 
-**ref1-11** Which of the following values is **in the domain** of the function $x^{0.429}$? [rev1]
+**rev1-11** Which of the following values is **in the domain** of the function $x^{0.429}$? [rev1]
 
 [] -2
 [] -1
 [a] 0
 [] All of them
 
-**ref1-12** Is zero **in the domain** of the function $x^{-1}$? [rev1]
+**rev1-12** Is zero **in the domain** of the function $x^{-1}$? [rev1]
 
 [] Yes
 [a] No
 
-**ref1-13** Which of the following values is **in the domain** of the function $\sin(x)$? [rev1]
+**rev1-13** Which of the following values is **in the domain** of the function $\sin(x)$? [rev1]
 
 [] -2
 [] -1
 [] 0
 [a] All of them
 
-**ref1-14** According to the graph, which of these values is the argmax of the function? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
+**rev1-14** According to the graph, which of these values is the argmax of the function? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
 
 [] 0
 [] 1
 [a] 2
 [] 3
 
-**ref1-15** According to the graph, which of these values is the maximum of the function? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
+**rev1-15** According to the graph, which of these values is the maximum of the function? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
 
 [] 0
 [] 1
 [] 2
 [a] 3
 
-**ref1-16** For the function shown in the graph, which of these properties **does not apply**? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
+**rev1-16** For the function shown in the graph, which of these properties **does not apply**? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
 
 [] continuous
 [+] monotonic
 [] concave-down [The function is concave down.]
 [] no inflection point [The concavity of the function does not change from up to down, so there is no inflection point.]
 
-**ref1-17** For the function shown in the graph, which of these properties **does not apply**? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/properties-1.png"> [rev1]
+**rev1-17** For the function shown in the graph, which of these properties **does not apply**? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/properties-1.png"> [rev1]
 
 [+] discontinuous
 [] monotonic
