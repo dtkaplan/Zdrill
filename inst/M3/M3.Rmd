@@ -28,4 +28,6 @@ slice_plot(1/(x-1) + 20 ~ x, domain(x=c(1.03,2)), npts=300) %>%
   slice_plot(1/(x-1) + 20 ~ x, domain(x=c(-2, .97)), npts=300) %>%
   save_graph("M3-14-06.png")
 slice_plot(4* pnorm(x) + 2 ~ x, domain(x=c(-4, 4))) %>% save_graph("M3-14-07.png")
+slice_plot(3*sin(2*pi*t/8) ~ t, domain(t=c(0,4))) %>% save_graph("rev1-argmax.png")
+slice_plot(3 - 0.01* exp(t) ~ t, domain(t=c(0,5))) %>% save_graph("properties-1.png")
 ```

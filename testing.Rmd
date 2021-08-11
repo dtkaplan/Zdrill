@@ -1,1 +1,125 @@
+**rev1-1** Which of these does the symbol $y_0$ suggest using our CalcZ notation conventions?[rev1]
 
+[+] a constant
+[] an input to a function
+[] the output from a function
+[] a function name
+[] a parameter
+[] it's nonsense
+
+**rev1-2** Given the definition $g(z) \equiv z \sin(z)$, hich of these does the symbol $z$ suggest using our CalcZ notation conventions? [rev1]
+
+[] a constant
+[+] the input to the function
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+
+**rev1-3** Given the definition $g(z) \equiv z \sin(z)$, hich of these does the symbol $g$ suggest using our CalcZ notation conventions? [rev1]
+
+[] a constant
+[] the input to the function
+[] the output from the function
+[+] the function name [Usually, we write function names with parentheses, like $g()$, just as a reminder that the name refers to a function.]
+[] it's nonsense
+
+**rev1-4** Given the definition $pressure(H) \equiv exp(-.1 H)$, which of these does the symbol $H$ suggest using our CalcZ notation conventions? [rev1]
+
+[] a constant
+[+] the input to the function [Even though $H$ is not a name we will use frequently for the input to a function, whenever you see $f(H) \equiv ...$, you know that $H$ is being explicitly declared to be a function.]
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+**rev1-5** Given the definition $pressure(H) \equiv exp(-.1 H)$, which of these does the symbol $pressure$ suggest using our CalcZ notation conventions? [rev1]
+
+[] a constant
+[+] the input to the function [Even though $H$ is not a name we will use frequently for the input to a function, whenever you see $f(H) \equiv ...$, you know that $H$ is being explicitly declared to be a function.]
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+**rev1-6** In the definition $h(z) \equiv a z + b$ what is the symbol $z$? [rev1]
+
+[] a constant
+[+] the input to the function 
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+**rev1-7** In the definition $h(z) \equiv a z + b$ what is the symbol $a$? [rev1]
+
+[+] a constant [We call such constants "parameters" of the function.]
+[] the input to the function 
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+**ref1-8** In `g <- makeFun(3*z + 2 ~ z)`, which is the name of the input to the function `g()`? [rev1]
+
+[] $x$
+[] $y$
+[a] $z$
+[] $t$
+
+**ref1-9** Which of the following values is **in the domain** of the function $\ln()$? [rev1]
+
+[] -1
+[] 0
+[a] 1
+[] All of them
+
+**ref1-10** Which of the following values is **in the domain** of the function $x^2$? [rev1]
+
+[] -1
+[] 0
+[] 1
+[a] All of them
+
+**ref1-11** Which of the following values is **in the domain** of the function $x^{0.429}$? [rev1]
+
+[] -2
+[] -1
+[a] 0
+[] All of them
+
+**ref1-12** Is zero **in the domain** of the function $x^{-1}$? [rev1]
+
+[] Yes
+[a] No
+
+**ref1-13** Which of the following values is **in the domain** of the function $\sin(x)$? [rev1]
+
+[] -2
+[] -1
+[] 0
+[a] All of them
+
+**ref1-14** According to the graph, which of these values is the argmax of the function? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> 
+
+[] 0
+[] 1
+[a] 2
+[] 3
+
+**ref1-15** According to the graph, which of these values is the maximum of the function? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> 
+
+[] 0
+[] 1
+[] 2
+[a] 3
+
+**ref1-16** For the function shown in the graph, which of these properties **does not apply**? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> 
+
+[] continuous
+[+] monotonic
+[+] concave-up [The function is concave down.]
+[] no inflection point [The concavity of the function does not change from up to down, so there is no inflection point.]
+
+**ref1-16** For the function shown in the graph, which of these properties **does not apply**? <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/properties-1.png"> 
+
+[] continuous
+[+] monotonic
+[] concave-down 
+[] no inflection point [The concavity of the function does not change from up to down, so there is no inflection point.]
