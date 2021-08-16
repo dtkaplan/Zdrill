@@ -1,0 +1,90 @@
+
+**legitnames1** Is `xx` a legitimate name in R? [M2]
+
+[a] True
+[] False
+
+**legitnames2** Is `x_x` a legitimate name in R? [M2]
+
+[a] True
+[] False
+
+**legitnames3** Is `-x` a legitimate name in R? [M2]
+
+[] True
+[a] False [The minus sign are other such symbols are not allowed characters in an R name.]
+
+**legitnames4** Is `3x` a legitimate name in R? [M2]
+
+[] True
+[a] False [Names should start with a letter]
+
+**legitnames5** Is `x3` a legitimate name in R? [M2]
+
+[a] True [Numbers are OK in names, so long as the first character is a letter]
+[] False
+
+**legitnames6** Is `sqrt` a legitimate name in R? [M2]
+
+[a] True [In fact, it is the name of an oft-used function in R.]
+[] False
+
+**legitnames7** Is `x + y` a legitimate name in R? [M2]
+
+[] True
+[a] False [`x + y` is an R expression that uses names, but the expression is not itself a name.]
+
+**legitnames8** Is `3 * x` a legitimate name in R? [M2]
+
+[] True
+[a] False [`*` and <space> are not acceptable characters in a name.]
+
+**legitnames9** Is `xprime` a legitimate name in R? [M2]
+
+[a] True
+[] False
+
+**legitnames10** Is `x prime` a legitimate name in R? [M2]
+
+[] True
+[a] False [Names cannot have blank spaces internally.]
+
+**legitnames11** Is `dx` a legitimate name in R? [M2]
+
+[a] True
+[] False
+
+**legitnames12** Is `xx` a legitimate name in R? [M2]
+
+[a] True
+[] False
+
+**legitnames13** Is `dx_f` a legitimate name in R? [M2]
+
+[a] True
+[] False
+
+**assign1** What's wrong with this assignment statement?<br> `x < 4` [M2]
+
+[] Nothing
+[a] It's missing part of the `<-` token.
+[]  `x` is an improper name.
+
+**assign2** What's wrong with this assignment statement?<br> `3*x <- 4` [M2]
+
+[] Nothing [The item to the left of `<-` needs to be a valid name. `3*x` is not.]
+[] It should use addition instead of multiplication.
+[a] The item to the left of `<-` needs to be a name [`3 * x` is an instruction to multiply 3 times x. It is not a name.]
+[] There's no `x` on the right-hand side of the assignment arrow.
+
+**assign3** What's wrong with this assignment statement?<br> `x -> 3+4` [M2]
+
+[] Nothing
+[] You can't use addition in an assignment statement. [You can, but it has to be on the right side of the assignment, where you construct the value to be assigned to the name on the left side.]
+[a] The assignment has to point toward the **name**, not the *value*
+
+**assign4** We can write something like <br>$f(x) \equiv x^2$ </br> in mathematical notation. Is it legit in R to write `f(x) <- x^2` ? [M2]
+
+[] Yes, it's fine.
+[a] `f(x)` is not a valid name in R.
+[] Almost. You need to use \(\equiv\) instead of `<-` . [There's no symbol \(\equiv\) on the keyboard or recognized in the R language.]

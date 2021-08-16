@@ -1,0 +1,146 @@
+
+**M3-01**  Which of these basic modeling functions has a discontinuity? [M3]
+
+[+] $g(x) \equiv x^{-1}$
+[] $g(x) \equiv - x^1$
+[] $\text{dnorm}(x)$
+[] $\sin(x)$
+
+**M3-02** What is the period of the $\sin()$ function? [M3]
+
+[] 1
+[] $2/\pi$
+[] $\pi/2$
+[] $\pi$
+[a] $2 \pi$
+
+**M3-03** Which of the basic modeling functions has value very near zero over almost **all** of its domain? [M3]
+
+[+] $\text{dnorm()}$ [The gaussian function $\text{dnorm()}$ is practically zero everywhere except in $-4 < x < 4$]
+[] $\sin()$
+[] $e^x$
+[] $\ln()$
+
+**M3-04** Which of these basic modeling functions has value very near zero over almost **half** of its domain? [M3]
+
+[+] $\text{pnorm()}$ [The sigmoid function is practically zero everwhere in $x < -4$]
+[] $\ln()$
+[] $x^{-1}$
+[] $x^{2}$
+
+**M3-05** Which of these basic modeling functions has value very near zero over almost **half** of its domain? [M3]
+
+[+] $e^x$ [The exponential is less than 1 whenever $x < 0$, and it's less than 0.0001 whenever $x < -10$, even smaller for more negative $x$.]
+[] $\ln()$
+[] $x^{-1}$
+[] $x^{2}$
+
+**M3-06** Which of these words is most appropriate to describe the function $g(x) \equiv 2 - 3 x + 4x^3 ?$ [M3]
+
+[+] Polynomial
+[] Discontinuous
+[] Periodic
+[] Power-law [Each of the functions in the sum is a power-law, but added together they are no longer a power-law function.]
+
+**M3-07** Which of these pattern-book functions is **not** a monomial? [M3]
+
+[+] $\sqrt{x}$ [Monomials are functions of the form $x^n$, where $n = 0, 1, 2, \ldots$, that is, an integer.]
+[] $x^2$
+[] $x$ [It might be easier to see that this is a monomial if we write it as $x^1$]
+
+**M3-08** Which value(s) is **missing from** the domain of $x^{-1}$? [M3]
+
+[a] Zero
+[] All non-positive numbers [This is another way of saying, "The number line except for zero and negative numbers."]
+[] Negative numbers
+[] No numbers are missing.
+
+**M3-09** Which value(s) is **missing from** the domain of $x^{1/2}$? [M3]
+
+[] Zero
+[] All non-positive numbers [This is another way of saying, "The number line except for zero and negative numbers."]
+[a] Negative numbers
+[] No numbers are missing.
+
+
+**M3-10** Which value(s) is **missing from** the domain of $\ln(x)$? [M3]
+
+[] Zero
+[a] All non-positive numbers [This is another way of saying, "The number line except for zero and negative numbers." The $\ln(x)$ function is not defined at $x=0$, although the value is often written as $-\infty$.]
+[] Negative numbers
+[] No numbers are missing.
+
+**M3-11** Which value(s) is **missing from** the domain of $\sin(x)$? [M3]
+
+[] Zero
+[] All non-positive numbers [This is another way of saying, "The number line except for zero and negative numbers."]
+[] Negative numbers
+[a] No numbers are missing.
+**M3-12** Which of these functions is **concave up** over the domain shown in the graph? [M3]
+
+[+] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-01.png">
+[] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-02.png"> [This is concave down toward the left and concave up toward the right.]
+[] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-03.png"> [This is concave down.]
+
+**M3-13** Which of these functions has a **vertical** asymptote? [M3]
+
+[+] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-01.png">
+[] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-05.png"> [The $\sin()$ function does not have a vertical or horizontal asymptote.]
+[] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-02.png"> [This exponential function has a **horizontal** asymptote as $x \rightarrow -\infty$]
+
+**M3-14** Which of these functions has a **vertical** asymptote? [M3]
+
+[+] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-03.png">
+[] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-04.png"> [This sigmoidal function does not have a vertical asymptote, although it does have horizontal asymptotes. ]
+[] <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-02.png"> [This exponential function has a **horizontal** asymptote as $x \rightarrow -\infty$, but not a vertical asymptote.]
+
+**M3-15** For this function <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-06.png"></br> where is the **vertical** asymptote located? [M3]
+
+[] At $x=0$
+[a] At $x=1$
+[] At 20 as $x \rightarrow \pm\infty$ [For **horizontal** asymptotes, the description takes this form, but for vertical asymptotes specify the value of the input at which the function value skyrockets.]
+
+**M3-16a** Does this function have an **inflection point**? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-12-03.png"> [M3]
+
+[] yes [But there's no spot where the function switches from concave up to concave down.]
+[a] no [The function is concave down and never switches to concave up.]
+[] can't tell [Yes you can. You can see the curvature pretty easily on the graph.]
+
+**M3-16b** Does this function have an **inflection point**? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-04.png"> [M3]
+
+[a] yes [The function is concave up to the left of $x=0$, and concave down to the right. The concavity c70hanges at $x=0$ (although the exact point is hard to make out in the graph). A point where the concavity changes is an inflection point.]
+[] no [The concavity changes from positive on the left of the graph to negative on the right. So there must be an inflection point in between.]
+[] can't tell [Yes you can. You can see the curvature pretty easily on the graph.]
+
+**M3-17** For this function <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-06.png"></br> where is the **horizontal** asymptote located? [M3]
+
+[] At $x=0$ [We're looking for a **horizontal** asymptote. This is a description of a **vertical** asymptote.]
+[] At $x=1$ [We're looking for a **horizontal** asymptote. This is a description of a **vertical** asymptote.]
+[a] At 20 as $x \rightarrow \pm\infty$
+
+**M3-18** Which of these is a correct description of a horizontal asymptote in the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-07.png"> [M3]
+
+[] At 2 as $x \rightarrow \pm\infty$ [There are different horizontal asymptotes for $x \rightarrow \infty$ and for $x \rightarrow -\infty$]
+[+] At 2 as $x \rightarrow -\infty$
+[] At 6 as $x \rightarrow -\infty$
+[] There is no horizontal asymptote.
+
+**M3-19** Which of these is a correct description of a horizontal asymptote in the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-07.png"> [M3]
+
+[] At 2 as $x \rightarrow \pm\infty$ [There are different horizontal asymptotes for $x \rightarrow \infty$ and for $x \rightarrow -\infty$]
+[] At 2 as $x \rightarrow \infty$
+[+] At 6 as $x \rightarrow \infty$
+[] There is no horizontal asymptote.
+
+**M3-20** Which value(s) is **missing from** the domain of $x^{-1/2}$? [M3]
+
+[] Zero
+[a] All non-positive numbers [This is another way of saying, "The number line except for zero and negative numbers."]
+[] Negative numbers [Power-law functions with non-integer exponents, e.g. $x^{3/2}$ or $\sqrt{x}$ or $x^{1.424}$ are not defined for negative $x$.]
+[] No numbers are missing.
+
+**M3-notation-1** Using our notation conventions from the textbook, which one of the following kinds of things is $y_0 ?$ [M3]
+
+[a] A constant
+[] A function name
+[] An input name [A subscript (like $_0$ here) or non-numeric superscript (like $^\star$) on what would otherwise be an input name will be instead a **constant**.]
