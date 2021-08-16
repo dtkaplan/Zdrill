@@ -1,0 +1,63 @@
+**interior1** For the function $$g(t) \equiv \sin\left(\frac{2 \pi}{P} (t - t_0)\right)$$ is the interior function linear? [interior]
+
+[a] Yes
+[] No
+
+**interior2** For the function $$g(P) \equiv \sin\left(\frac{2 \pi}{P} (t - t_0)\right)$$ is the interior function linear? [interior]
+
+[] Yes [Look carefully at the name of the argument to $g()$. Notice that it appears as a reciprocal in the interior function.]
+[a] No [You noticed that the name of the argument is $P$. Very good.]
+
+**interior3** For the function $$h(u) \equiv \ln(a^2 u - \sqrt{b})$$ is the interior function linear? [interior]
+
+[a] Yes
+[] No [Although $a^2$ and $\sqrt{b}$ appear to be nonlinear, they are not the inputs to the function. The function input is named $u$, and that appears in a strictly linear manner. If we had written the interior function as $9 u - 4$, you would have had no problem recognizing it as linear. We can equally well write this as $3^2 u - \sqrt{4}$; it's the same function and it's still linear in $u$.]
+
+**interior4** For the function $f(w) \equiv e^{kw}$, is the interior function linear? [interior]
+
+[a] Yes
+[] No [The interior function is $kw$, which is linear.]
+
+**interior5** Saying "the interior function is linear" is not an entirely complete statement. A full statement is "the interior function is linear in terms of the input $x$" or "in terms of the input $u$" or whatever name we choose to use for the input. <br> Is the expression $V x + U$ linear in terms of $U$? [interior]
+
+[a] Yes
+[] No
+
+**interior6** Saying "the interior function is linear" is not an entirely complete statement. A full statement is "the interior function is linear in terms of the input $x$" or "in terms of the input $u$" or whatever name we choose to use for the input. <br> Is the expression $V x^2 + U$ linear in terms of $U$? [interior]
+
+[a] Yes
+[] No [Don't be fooled by the $x^2$. We're interested in $V x^2 + U$ as a function of $U$, and $U$ appears in a linear form.]
+
+**interior7** Saying "the interior function is linear" is not an entirely complete statement. A full statement is "the interior function is linear in terms of the input $x$" or "in terms of the input $u$" or whatever name we choose to use for the input. <br> Is the expression $V x^2 + U$ linear in terms of $X$? [interior]
+
+[] Yes [We're asking about $V x^2 + U$ as a function of $x$. The $x^2$ term is definitely not linear!]
+[a] No 
+
+**fname1** What is the name of the **function** being defined in $a(b) \equiv 3 x + 2 b$? [fnames]
+
+[a] a [Any name $xxx$ appearing in a definition of the form $xxx(yyy) \equiv \text{some_function_of}(yyy)$} is being explicitly declared as the name of the function. Names don't have to be $f()$, $g()$, or $h()$, even though those are the pronouns we use most often.]
+[] b
+[] x
+
+**fname2** What is the name of the **input** to the function being defined in $a(b) \equiv 3 x + 2 b$? [fnames]
+
+[] a
+[a] b [Any name $yyy$ appearing in a definition of the form $xxx(yyy) \equiv \text{some_function_of}(yyy)$} is being explicitly declared as the name of the the argument. Names don't have to be $x, y, z, t, u, v, w$, even though those are the the names we use most often.]
+[] x
+
+**fname3** What is wrong with this function definition?  $$\text{dorothy(kansas)} \equiv \text{niece_of(Auntie_Em)} \times \text{kansas}$$ [fnames]
+
+[] You can't name a function "dorothy." [Why not?]
+[] "kansas" is a US state, not the name of an argument.
+[] "dorothy" and "kansas" should be capitalized. [That's true in English, but we're writing mathematics here and we get to make the choices.]
+[] Auntie Em is a person, not a number. [There's no reason why a person can't be the argument to a function. For instance, we might have blood_pressure(patient3252).]
+[a] Nothing.
+
+
+
+**fname4** What's wrong with this function definition? $$\text{electric}(z) \equiv 3 z + \ln()$$[fnames]
+
+[a] No input has been given to $\ln()$. [Although $\ln()$ is an important function, on the right-hand side of the definition, it can only make sense if it is evaluated on some argument. So writing $\ln(z)$ or even $\ln(year)$ would have made this a proper function definition.]
+[] "electric()" should have been written as E(). [The letter E can be a fine function name, but so can "electric."]
+[] Nothing
+

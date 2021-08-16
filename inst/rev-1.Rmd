@@ -1,0 +1,199 @@
+**rev1-01** Which of these does the symbol $y_0$ suggest using our CalcZ notation conventions? [rev1]
+
+[+] a constant [We also sometimes refer to a constant as a parameter.]
+[] an input to a function
+[] the output from a function
+[] a function name
+[] it's nonsense
+
+**rev1-02** Given the definition $g(z) \equiv z \sin(z)$, which of these does the symbol $z$ suggest using our CalcZ notation conventions? [rev1]
+
+[] a constant
+[+] the input to the function
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+
+**rev1-03** Given the definition $g(z) \equiv z \sin(z)$, hich of these does the symbol $g$ suggest using our CalcZ notation conventions? [rev1]
+
+[] a constant
+[] the input to the function
+[] the output from the function
+[+] the function name [Usually, we write function names with parentheses, like $g()$, just as a reminder that the name refers to a function.]
+[] it's nonsense
+
+**rev1-04** Given the definition $pressure(H) \equiv \exp(- H/10)$, which of these does the symbol $H$ suggest using our CalcZ notation conventions? [rev1]
+
+[] a constant
+[+] the input to the function [Even though $H$ is not a name we will use frequently for the input to a function, whenever you see $f(H) \equiv ...$, you know that $H$ is being explicitly declared to be a function.]
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+**rev1-05** Given the definition $pressure(H) \equiv exp(-.1 H)$, which of these does the symbol $pressure$ suggest using our CalcZ notation conventions? [rev1]
+
+[] a constant
+[] the input to the function 
+[] the output from the function
+[+] the function name
+[] it's nonsense
+
+**rev1-06** In the definition $h(z) \equiv a z + b$ what is the symbol $z$? [rev1]
+
+[] a constant
+[+] the input to the function 
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+**rev1-07** In the definition $h(z) \equiv a z + b$ what is the symbol $a$? [rev1]
+
+[+] a constant [We call such constants "parameters" of the function.]
+[] the input to the function 
+[] the output from the function
+[] the function name
+[] it's nonsense
+
+**rev1-08** In `g <- makeFun(3*z + 2 ~ z)`, which is the name of the input to the function `g()`? [rev1]
+
+[] $x$
+[] $y$
+[a] $z$
+[] $t$
+
+**rev1-09** Which of the following values is **in the domain** of the function $\ln()$? [rev1]
+
+[] -1
+[] 0
+[a] 1
+[] All of them
+
+**rev1-10** Which of the following values is **in the domain** of the function $x^2$? [rev1]
+
+[] -1
+[] 0
+[] 1
+[a] All of them
+
+**rev1-11** Which of the following values is **in the domain** of the function $x^{0.429}$? [rev1]
+
+[] -2
+[] -1
+[a] 0
+[] All of them
+
+**rev1-12** Is zero **in the domain** of the function $x^{-1}$? [rev1]
+
+[] Yes
+[a] No
+
+**rev1-13** Which of the following values is **in the domain** of the function $\sin(x)$? [rev1]
+
+[] -2
+[] -1
+[] 0
+[a] All of them
+
+**rev1-14** According to the graph, which of these values is the argmax of the function? <br> <br> <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
+
+[] 0
+[] 1
+[a] 2
+[] 3
+
+**rev1-15** According to the graph, which of these values is the maximum of the function? <br> <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
+
+[] 0
+[] 1
+[] 2
+[a] 3
+
+**rev1-16** For the function shown in the graph, which of these properties **does not apply**? <br> <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/rev1-argmax.png"> [rev1]
+
+[] continuous
+[+] monotonic
+[] concave-down [The function is concave down.]
+[] no inflection point [The concavity of the function does not change from up to down, so there is no inflection point.]
+
+**rev1-17** For the function shown in the graph, which of these properties **does not apply**? <br> <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/properties-1.png"> [rev1]
+
+[+] discontinuous
+[] monotonic
+[] concave-down 
+[] no inflection point [The concavity of the function does not change from up to down, so there is no inflection point.]
+
+
+**rev1-18** What's wrong with this R command for defining a function?<br>`f <- 3*x + 2` [rev1]
+
+[] It needs to be `f(x) <- 3*x + 2` [That's reminiscent of traditional notation but to create a function we use `f <- makeFun( ... )`]
+[] It needs to be `f <- makeFun(3*x + 2)` [Almost, but you're missing the right-hand side of the tilde expression, `3*x ~ x`, which tells us that `x` will be the name of the argument to `f()`.]
+[a] It needs to be `f <- makeFun(3*x + 2 ~ x)`.
+[] Nothing is wrong
+
+**rev1-19** What's wrong with this R command for creating an exponential function named `g`?<br> `g <- makeFun(e^y ~ y)` [rev1]
+
+[+] `e^y` is not the exponential function [It should be `exp(y)`]
+[] It uses `y` as the argument instead of `x`. [You can use any name you like for the argument, so long as you use it consistently.]
+[] Better to name the argument `x` [`x` and `y` (and many others) are excellent names for arguments.]
+[] Nothing
+
+**rev1-20** What's suspect about this R command?<br> `g <- makeFun(exp(y) ~ x)` [rev1]
+
+[a] The formula is `exp(y)` but the argument name is `x`
+[] There's a tilde expression as the argument to `makeFun()`. [That's exactly what is supposed to happen: give a tilde expression as the input to `makeFun()` !]
+[] The function name should be `G`, not `g`. [The function name is your choice! Either would be right.]
+[] Nothing [I guess that "suspect" is in the eye of the beholder. But I think there's a better choice here.]
+
+**rev1-21** What's wrong with the R expression `sin*(x + 3)`? [rev1]
+
+[a] There is no function named `sin*()` [And besides, `*` cannot be part of any valid name in R.]
+[] It should be `sin+(x+3)` [There's no function named `sin+()`]
+[] It should be `sin^(x+3)` [There is no function named `sin^()`]
+[] Nothing [Hint: What's the name of the function being used? Is that really a function?]
+
+**rev1-22** What does `e^3` mean in R? [rev1]
+
+[] It corresponds to $e^3$, which happens to be 20.09 [Remember that $e^x$ is the traditional notation for the exponential function. In R, the exponential function is written `exp()`.]
+[] A shorthand for `eee`. [There is no shorthand for names in R.]
+[a] The value stored under the name `e` will be raised to the third power. [And if there is no object named `e`, you'll get an error message.]
+
+
+
+**rev1-23** What's missing in the R expression `(x+3)(x+1)`? [rev1]
+
+[] There's a missing closing parenthesis.
+[] There's an extra closing parenthesis.
+[+] The multiplication symbol, `*`, is missing. [It should be `(x + 3)*(x+1)`.]
+[] Nothing
+
+**rev1-24** If `x` has been assigned the value `pi/2`, what will be the value of the R expression `2 sin(x)`? [rev1]
+
+[] 0, since $\sin(\pi/2) = 0$. [Actually, $\sin(\pi/2) = 1$, but that's not the only problem with this answer.]
+[] 1, since $\sin(\pi/2) = 1$. [What about the `2`?]
+[] 2, since $\sin(\pi/2) = 1$. [This would be right if the R expression had been written correctly.]
+[] No value. The expression is in error. [It should presumably be `2*sin(x)`.]
+
+
+**rev1-25** Which of these is the right way to translate $e^x$ into R? [rev1]
+
+[] `e^x` [This is a bit of arithmetic, raising the value of whatever is stored in the object `e` to the power `x`. ]
+[a] `exp(x)`
+[] `e(x)` [There's no function named `e()`.]
+[] There is no R equivalent. [Yes there is. Remember $e^x$ has a definite meaning in traditional notation.]
+
+**rev1-26** In traditional notation, $$\text{Celsius}(\text{Fahrenheit}) \equiv \frac{5}{9} (\text{Fahrenheit} - 32)$$ defines a function named `Celsius()`. This of the following correctly defines that function in R? [rev1]
+
+[] `Celsius(Fahrenheit) <- makeFun(5*(Fahrenheit-32)/9)` [The left side of the assignment operator `<-` should be simply the name of the function, in this case `Celsius`.]
+[] `Celsius <- makeFun(5/9*Fahrenheit - 32 ~ Fahrenheit)` [This is missing the grouping parentheses needed for the correct formula: `(5/9)*(Fahrenheit - 32) ~ Fahrenheit]`
+[] `Celsius() <- makeFun(5*(Fahrenheit-32)/9 ~ Fahrenheit)` [The `()` in `Celsius()` are not allowed in an R name.]
+[+] `Celsius <- makeFun(5*(Fahrenheit-32)/9 ~ Fahrenheit)`
+[] `Celsius(Fahrenheit) <- makeFun(5*(Fahrenheit-32)/9 ~ Fahrenheit)` [Everything is good, but the name on the left side of the assignment operator `<-` should be simply `Celsius`]
+
+**rev1-27** You are modeling the population of *E. coli* growing in optimal conditions. (Optimal for the *E. coli*, not for you!)  In R, you've written <br>`population <- makeFun(100*exp(hours) ~ hours)`<br>What's the correct definition in traditional notation? [rev1]
+
+[] $\text{population} \equiv 100 e^\text{hours}$
+[] $\text{population}(t) \equiv 100 e^\text{hours}$ [The argument should be called hours, not t.]
+[a] $\text{population}(\text{hours}) \equiv 100 e^\text{hours}$
+[] None of the above.
+
