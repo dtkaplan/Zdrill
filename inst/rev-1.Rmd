@@ -172,7 +172,7 @@
 [] 0, since $\sin(\pi/2) = 0$. [Actually, $\sin(\pi/2) = 1$, but that's not the only problem with this answer.]
 [] 1, since $\sin(\pi/2) = 1$. [What about the `2`?]
 [] 2, since $\sin(\pi/2) = 1$. [This would be right if the R expression had been written correctly.]
-[] No value. The expression is in error. [It should presumably be `2*sin(x)`.]
+[a] No value. The expression is in error. [It should presumably be `2*sin(x)`.]
 
 
 **rev1-25** Which of these is the right way to translate $e^x$ into R? [rev1]
