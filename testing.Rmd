@@ -1,4 +1,4 @@
-**sc1** What is the value of the parameter "mean" for the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M08/M06-01.png"> [M06]
+**sc1** What is the value of the parameter "mean" for the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M08/M06-01.png" width="80%"> [M06]
 
 [] -2
 [] -1
@@ -7,7 +7,7 @@
 [a]  2 [The **argmax** of the gaussian.]
 [] "mean" is not a parameter of this function. 
 
-**sc2** What is the value of the parameter "sd" for the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M08/M06-01.png"> [M06]
+**sc2** What is the value of the parameter "sd" for the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M08/M06-01.png" width="80%"> [M06]
 
 [] -2
 [] -1 [sd cannot be negative]
@@ -16,7 +16,7 @@
 []  2 
 [] "sd" is not a parameter of this function. 
 
-**sc3** What is the value of the parameter "mean" for the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M08/M06-02.png"> [M06]
+**sc3** What is the value of the parameter "mean" for the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M08/M06-02.png" width="80%"> [M06]
 
 [a] -2
 [] -1
@@ -25,7 +25,7 @@
 []  2 [The **argmax** of the gaussian.]
 [] "mean" is not a parameter of this function. 
 
-**sc4** What is the value of the parameter "sd" for the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M08/M06-02.png"> [M06]
+**sc4** What is the value of the parameter "sd" for the function shown in the graph?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M08/M06-02.png" width="80%"> [M06]
 
 [] -2 [sd cannot be negative]
 [] -1 [sd cannot be negative]
@@ -33,3 +33,5 @@
 []  1
 [a]  2 
 [] "sd" is not a parameter of this function. 
+
+

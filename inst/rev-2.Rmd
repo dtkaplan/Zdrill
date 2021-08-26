@@ -1,0 +1,159 @@
+
+
+
+**r2-01** Which input is a positive-going zero-crossing of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-01.png" width="80%"> [rev-2]
+
+[a] $t = -5$
+[]  $t = -2.5$
+[]  $t = -1.25$
+[]  $t = 1.25$
+[]  $t = 2.5$
+
+**r2-02** Which input is a negative-going zero-crossing of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [rev-2]
+
+[]  $t = -2.5$
+[]  $t = -1.25$
+[a] $t = 0$
+[]  $t = 1.25$
+[]  $t = 2.5$
+
+**r2-03** Which of these is an argmax of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [rev-2]
+
+[]  $t = -2.5$
+[a]  $t = -1.25$
+[] $t = 0$
+[]  $t = 1.25$ [That's an argmin!]
+[]  $t = 2.5$
+
+**r2-04** Which of these is an argmin of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [rev-2]
+
+[]  $t = -2.5$
+[]  $t = -1.25$ [That's an argmax!]
+[] $t = 0$
+[a]  $t = 1.25$ 
+[]  $t = 2.5$
+
+**r2-05** Which of these is the amplitude of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [rev-2]
+
+[] 0
+[] 1
+[a] 2
+[] 3
+[] 4 [For a sinusoid, the amplitude is **half** the vertical peak-to-trough distance.]
+
+**r2-06** Which of these is the baseline of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [rev-2]
+
+[] 0
+[a] 1
+[] 2
+[] 3
+[] 4 
+
+**r2-07** Which of these is the max of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [rev-2]
+
+[] 0
+[] 1
+[] 2
+[a] 3
+[] 4 [4 is close to the argmax, but we're asking about the max.]
+
+**r2-08** One of the following choices is the standard deviation of the function graphed. Which one?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-04.png" width="80%"> [rev-2]
+
+[] 0 [A gaussian with 0 standard deviation would be infinitely narrow and infinitely high!]
+[] 1
+[a] 2
+[] 3 [Remember the rule of thumb: half-width at half-height]
+[] 4 
+
+**r2-09** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly zero? [rev-2]
+
+[+] $(x=0, y=6)$
+[] $(x=1, y=5)$
+[] $(x=-2, y=6)$
+[] $(x=0, y=1)$
+
+**r2-10** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly 1? [rev-2]
+
+
+[] $(x=0, y=6)$
+[+] $(x=1, y=5)$
+[] $(x=-2, y=6)$
+[] $(x=0, y=1)$
+
+**r2-11** Which of these is a positive-going zero crossing of $g(t)$? $$g(t) \equiv \sin\left(\frac{2\pi}{5}t-3\right)$$ [rev-2]
+
+[a] $t=15/2\pi$ []
+[] $t = 2 \pi/15$
+[] $t = 3$ [Notice that the argument is **not** $\frac{2\pi}{5}(t-3)$.]
+[] None of the above
+
+**r2-12** What is the period of $g(t)$? $$g(t) \equiv \text{dnorm}\left(\frac{2\pi}{5}(t-3)\right)$$ [rev-2]
+
+[] 1
+[] 5
+[] $2 \pi/5$
+[] $5/2\pi$
+[a] $g(t)$ isn't periodic. [The only one of our basic modeling functions that is period is $\sin()$. The gaussian, that is, $\text{dnorm}()$, has just one bump and therefore isn't periodic.]
+
+**r2-13** What is the period of $g(t)$? $$g(t) \equiv \frac{5}{\sin(2 \pi t)}$$  [rev-2]
+
+[a] 1
+[] 5 [Hint: 5 isn't inside the $\sin()$ parentheses.]
+[] $2 \pi/5$ [Hint: 5 isn't inside the $\sin()$ parentheses.]
+[] $5/2\pi$ [Hint: 5 isn't inside the $\sin()$ parentheses.]
+[] $g(t)$ isn't periodic. [Since the $\sin()$ is periodic, $1/\sin()$ is also periodic.]
+
+**r2-14** which of the following is a positive-going zero crossing of $g(t)$? $$\sin\left(\frac{2 \pi}{5} (t - 3) \right)$$ [rev-2]
+
+[] $t=-5$ [5 isn't in the $\sin()$ parentheses.]
+[] $t=-3$ [When the argument to $\sin()$ is zero, the function output is at zero and increasing.]
+[] $t=0$ [When the argument to $\sin()$ is zero, the function output is at zero and increasing.]
+[a] $t=3$ [$t=3$ makes the whole argument zero.]
+[] $t=5$ [5 isn't in the $\sin()$ parentheses.]
+
+**r2-15** What is the period of the function $\sin(6\pi t)$?[rev-2]
+
+[a] 1/3
+[] 1/2
+[] 2
+[] 3
+[] 6
+
+**r2-16** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function steepest in the x-direction? [rev-2]
+
+[] $(x=0, y=6)$
+[] $(x=1, y=5)$
+[] $(x=-2, y=6)$
+[+] $(x=0, y=1)$
+
+**r2-17** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly $-1$? [rev-2]
+
+
+[] $(x=0, y=6)$
+[] $(x=1, y=5)$
+[+] $(x=-2, y=6)$
+[] $(x=0, y=1)$
+
+**r2-18** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function practically flat? [rev-2]
+
+
+[+] $(x=0, y=6)$
+[] $(x=1, y=2)$
+[] $(x=-2, y=3)$
+[] $(x=0, y=1)$
+
+**r2-19** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>You are standing on the input point $(x=-1,y=4)$. In terms of the compass points (where north would be up and east to the right), which direction points most steeply uphill from where you are standing. [rev-2]
+
+
+[a] NE
+[] SE
+[] SW [It's steep in this direction, but **downhill**!]
+[] NW
+
+**r2-20** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>You are standing on the input point $(x=2,y=1)$. In terms of the compass points (where north would be up and east to the right), which direction points most steeply uphill from where you are standing. [rev-2]
+
+
+[] NE [It's steep in this direction, but **downhill**!]
+[] SE
+[a] SW 
+[] NW

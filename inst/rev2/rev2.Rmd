@@ -7,7 +7,7 @@ author: "Daniel Kaplan"
 library(mosaic)
 library(mosaicCalc)
 save_graph <- function(P, filename) {
-  ggsave(filename, P, device="png", units="cm", width=10, scale=1, height=6, dpi="screen")
+  ggsave(filename, P, device="png", units="cm", width=10, scale=1, height=6, dpi=200)
 }
 
 ```
