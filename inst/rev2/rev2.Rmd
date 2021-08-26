@@ -1,0 +1,42 @@
+---
+title: "Graphics for M06 questions"
+author: "Daniel Kaplan"
+---
+
+```{r include=FALSE}
+library(mosaic)
+library(mosaicCalc)
+save_graph <- function(P, filename) {
+  ggsave(filename, P, device="png", units="cm", width=10, scale=1, height=6, dpi="screen")
+}
+
+```
+
+```{r}
+slice_plot(sin(2*pi*t/5) ~ t, domain(t=c(-5.2,5.2))) %>%
+  gf_refine(scale_x_continuous(breaks = -5:5)) %>%
+  save_graph("rev2-01.png")
+
+slice_plot(sin(2*pi*(t+2.5)/5) ~ t, domain(t=c(-5.2,5.2))) %>%
+  gf_refine(scale_x_continuous(breaks = -5:5)) %>%
+  save_graph("rev2-02.png")
+  
+slice_plot(2 * sin(2*pi*(t+2.5)/5)  + 1 ~ t, domain(t=c(-5.2,5.2))) %>%
+  gf_refine(scale_x_continuous(breaks = -5:5),
+            scale_x_continuous(breaks = -5:5)) %>%
+  save_graph("rev2-03.png")
+
+slice_plot(2 * dnorm(t,-1, 2)  + 1 ~ t, domain(t=c(-5.2,5.2))) %>%
+  gf_refine(scale_x_continuous(breaks = -5:5)) %>%
+  save_graph("rev2-04.png")
+
+f <- rfun(~ x & y, seed=201)
+contour_plot(-f(x - 0.5, y) ~ x & y, 
+             domain(x=c(-3,3), y=c(0,6)),
+             skip = 0) %>%
+  gf_refine(coord_fixed(), 
+            scale_x_continuous(breaks=-3:3),
+            scale_y_continuous(breaks=0:6)) %>%
+  save_graph("rev2-05.png")
+
+```
