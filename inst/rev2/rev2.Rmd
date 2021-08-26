@@ -48,4 +48,14 @@ slice_plot(exp(t) ~ t, domain(t=c(-1,3)), color="dodgerblue") %>%
   slice_plot(exp(-1.5*(t-1)) -2 ~ t) %>%
   gf_refine(scale_x_continuous(breaks = -5:5)) %>%
   save_graph("rev2-07.png")
+
+slice_plot(3 - exp(t) ~ t, domain(t=c(-1,3)), color="dodgerblue") %>%
+  slice_plot(exp(1.5*(t-1)) - 8 ~ t) %>%
+  gf_refine(scale_x_continuous(breaks = -5:5)) %>%
+  save_graph("rev2-08.png")
+
+slice_plot(5*pnorm(t, 0, 2) ~ t, domain(t=c(-5,5))) %>%
+  gf_refine(scale_x_continuous(breaks = -5:5),
+            scale_y_continuous(breaks = 0:5)) %>%
+  save_graph("rev2-09.png")
 ```

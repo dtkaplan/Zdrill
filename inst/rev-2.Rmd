@@ -198,8 +198,8 @@
 
 **r2-26** One of the functions has a half-life, the other a doubling time. Which is bigger, the half-life or the doubling time?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-07.png" width="80%"> [rev-2]
 
-[] doubling time
-[a] half-life
+[a] doubling time
+[] half-life
 [] about the same
 [] they aren't exponential, so the concept of half-life/doubling-time doesn't apply.
 
@@ -217,7 +217,7 @@
 [] 1.5
 [] 2
 
-**r2-29** Consider the average rate of change of this function on the interval $-2 < t  2$. <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-07.png" width="80%"><br>Which of these statements best describes the average rate of change. [rev-2]
+**r2-29** Consider the average rate of change of this function on the interval $-2 < t < 2$. <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-09.png" width="80%"><br>Which of these statements best describes that average rate of change. [rev-2]
 
 [] very close to 1/2
 [a] slightly less than 1
