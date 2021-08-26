@@ -1,11 +1,11 @@
-M1.Rmd
-M2.Rmd
-M3.Rmd
-M4.Rmd
+M01.Rmd
+M02.Rmd
+M03.Rmd
+M04.Rmd
 rev-1.Rmd # Quiz 1 review for quiz on M5 
-# M5.Rmd
-# M6.Rmd
+# M05.Rmd
+# M06.Rmd
 # rev-2.Rmd #Quiz 2 review for quiz on M10 
 # rev-3.Rmd #Review for what would have been quiz on M14
 # Block-1.Rmd # Contains questions that haven't yet been sorted out.
-
+M08.Rmd

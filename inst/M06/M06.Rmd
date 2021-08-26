@@ -1,0 +1,24 @@
+---
+title: "Graphics for M06 questions"
+author: "Daniel Kaplan"
+---
+
+```{r include=FALSE}
+library(mosaic)
+library(mosaicCalc)
+save_graph <- function(P, filename) {
+  ggsave(filename, P, device="png", units="cm", width=10, scale=1, height=6, dpi="screen")
+}
+
+```
+
+```{r}
+slice_plot(dnorm(t, 2, 1) ~ t, domain(t=c(-5,5))) %>% 
+  gf_refine(scale_x_continuous(breaks = -5:5)) %>%
+  save_graph("M08-01.png")
+
+slice_plot(dnorm(t, -2, 2) ~ t, domain(t=c(-5,5))) %>% 
+  gf_refine(scale_x_continuous(breaks = -5:5)) %>%
+  save_graph("M08-02.png")
+
+```

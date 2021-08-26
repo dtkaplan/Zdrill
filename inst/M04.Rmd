@@ -1,44 +1,44 @@
 
-**M4-notation-2** Using our notation conventions from the textbook, which one of the following kinds of things is $t^\star?$ [M4]
+**M4-notation-2** Using our notation conventions from the textbook, which one of the following kinds of things is $t^\star?$ [M04]
 
 [a] A constant
 [] A function name
 [] An input name [A subscript (like $_0$ here) or non-numeric superscript (like $^\star$) on what would otherwise be an input name will be instead a **constant**.]
 
-**M4-notation-3** Using our notation conventions from the textbook, which one of the following kinds of things is $B ?$ [M4]
+**M4-notation-3** Using our notation conventions from the textbook, which one of the following kinds of things is $B ?$ [M04]
 
 [a] A constant
 [] A function name
 [] An input name [The letters from the start of the alphabet, a-d, or A-D will refer to a **constant**. ]
 
-**M4-notation-4** Using our notation conventions from the textbook, which one of the following kinds of things is $F() ?$ [M4]
+**M4-notation-4** Using our notation conventions from the textbook, which one of the following kinds of things is $F() ?$ [M04]
 
 [] A constant
 [a] A function name [Our standard pronouns for functions are $f(), g(), h()$ and $F(), G(), H()$]
 [] An input name
 
-**M4-notation-5** Using our notation conventions from the textbook, which one of the following kinds of things is $u ?$ [M4]
+**M4-notation-5** Using our notation conventions from the textbook, which one of the following kinds of things is $u ?$ [M04]
 
 [] A constant
 [] A function name
 [a] An input name [Letters from the end of the alphabet, $u, v, w, x, y, z$, generally refer to an input to a function. But, remember, something like $x_0$ will always be a constant.]
 
-**M4-notation-6** Can function names be multiple letters, e.g. `g3()` or `altitude()`? [M4]
+**M4-notation-6** Can function names be multiple letters, e.g. `g3()` or `altitude()`? [M04]
 
 [a] Yes [And they often do. Almost all R functions have multi-letter names, like `exp()`, `sin()`, `dnorm()`, and such. When you are building a model, it's helpful to use *mnemonic* function names rather than the usual pronouns like $f(), g()$, an $h()$. We use the short pronouns throughout the book whenever we are discussing general mathematical properties rather than specific models.]
 [] No
 
-**M4-notation-7** Can function names have subscripts or superscripts, like $g_0()$ or  $f'() ?$ [M4]
+**M4-notation-7** Can function names have subscripts or superscripts, like $g_0()$ or  $f'() ?$ [M04]
 
 [a] Yes [We'll use names like $g_0()$, $g_1()$ in sequence when we're discussing a set of functions that are very closely related, such as refinements?]
 [] No
 
-**M4-notation-8** In the book, will input names have subscripts, like $x_0$ or  $u_2 ?$ [M4]
+**M4-notation-8** In the book, will input names have subscripts, like $x_0$ or  $u_2 ?$ [M04]
 
 [] Yes
 [a] No [In the textbook, we try to reserve names like $x_0$ or $u_2$ for **constants**. But mathematics usage generally doesn't always adopt this helpful convention.]
 
-**M4-notation-9** In the book, what is meant by the word "**variable**"? [M4]
+**M4-notation-9** In the book, what is meant by the word "**variable**"? [M04]
 
 [] It's the same as input. [Use **input** rather than variable! Even if you're used to calling quantities like $x$ and $y$ variables, it's a confusing practice since it can mean so many different things. In calculus, in this course, we'll try to be strict about using the words **input** and **output**]
 [] It's the same as output.
@@ -48,35 +48,35 @@
 
 
 
-**arg11** Will this statement work in R? <br>`sin(4)` [M4]
+**arg11** Will this statement work in R? <br>`sin(4)` [M04]
 
 [a] Yes
 [] No
 
-**arg12** Will this statement work in R? <br>`Sin(4)`</br> [M4]
+**arg12** Will this statement work in R? <br>`Sin(4)`</br> [M04]
 
 [] Yes [It would except for the capital S. R treats capital and lower-case letters as completely different, so the name `abby` is utterly distinct from `Abby` or `aBBy`, etc.]
 [a] No
 
-**arg13** Will this statement work in R to calculate $\sin(4)$? <br> `sin[4]` [M4]
+**arg13** Will this statement work in R to calculate $\sin(4)$? <br> `sin[4]` [M04]
 
 [] Yes [You must always use parentheses, not square braces, to carry the argument to the function.]
 [a] No [Only parentheses can be used to hand an argument off to a function.]
 
-**arg14** What is the output from the command `log(-1)` ? [M4]
+**arg14** What is the output from the command `log(-1)` ? [M04]
 
 [] 0 [Sorry, but $\ln(1) \rightarrow 0$, not $\ln(-1)$.
 [] An error message. [A warning is different from an error.]
 [] -Inf
 [a] NaN [\(-1\) is outside of the domain of the logarithm function.]
 
-**arg15** What is the output from the command `log(0)` ? [M4]
+**arg15** What is the output from the command `log(0)` ? [M04]
 
 [] 0
 [a] -Inf [There's a vertical asymptote involved here, so the programmers who wrote `log()` decided to tell you which direction it goes in.]
 [] NaN
 
-**arg16** Which of these phrases is most appropriate for describing what the R command `z <- sin(17)` is doing?  [M4]
+**arg16** Which of these phrases is most appropriate for describing what the R command `z <- sin(17)` is doing?  [M04]
 
 [] Gives a name to a value.
 [a] Applies a function to an input to produce an output.
@@ -84,7 +84,7 @@
 [] The name of an object.
 [] It's invalid as a command.
 
-**arg17** Which of these phrases is most appropriate for describing what the R command `sin(17)` is doing?  [M4]
+**arg17** Which of these phrases is most appropriate for describing what the R command `sin(17)` is doing?  [M04]
 
 [] Gives a name to a value.
 [a] Applies a function to an input to produce an output.
@@ -92,7 +92,7 @@
 [] The name of an object.
 [] It's invalid as a command.
 
-**arg18** Which of these phrases is most appropriate for describing what the R command `z <- x` is doing?  [M4]
+**arg18** Which of these phrases is most appropriate for describing what the R command `z <- x` is doing?  [M04]
 
 [] Gives a name to a value.
 [] Applies a function to an input to produce an output.
@@ -100,7 +100,7 @@
 [] The name of an object.
 [] It's invalid as a command.
 
-**arg10** Which of these phrases is most appropriate for describing what the R command `fred` is doing?  [M4]
+**arg10** Which of these phrases is most appropriate for describing what the R command `fred` is doing?  [M04]
 
 [] Gives a name to a value.
 [] Applies a function to an input to produce an output.
@@ -108,71 +108,71 @@
 [a] The name of an object. [When you give the name of an object as a stand-alone command, R prints out the value of that object.]
 [] It's invalid as a command.
 
-**arg11** In the statement `pnorm(3, mean=4, sd=6 )`, what is `pnorm`?  [M4]
+**arg11** In the statement `pnorm(3, mean=4, sd=6 )`, what is `pnorm`?  [M04]
 
 [a] The name of the function being applied to the three arguments.
 [] A named argument
 [] An argument to be used without a name.
 
-**arg12** In the statement `pnorm(3, mean=4, sd=6 )`, what is `mean=4`?  [M4]
+**arg12** In the statement `pnorm(3, mean=4, sd=6 )`, what is `mean=4`?  [M04]
 
 [] The name of the function being applied to the three arguments.
 [a] A named argument
 [] An argument to be used without a name.
 
-**arg13** In the statement `pnorm(3, mean=4, sd=6 )`, what is `3`?  [M4]
+**arg13** In the statement `pnorm(3, mean=4, sd=6 )`, what is `3`?  [M04]
 
 [] The name of the function being applied to the three arguments.
 [] A named argument
 [a] An argument to be used without a name.
 
-**arg14** Will the statement `pnorm(x=3, mean=4, sd=6)` give the same result as `pnorm(3, mean=4, sd=6)` ?  [M4]
+**arg14** Will the statement `pnorm(x=3, mean=4, sd=6)` give the same result as `pnorm(3, mean=4, sd=6)` ?  [M04]
 
 [] Yes, same arguments to the same function means the output will be the same. [In general, this is good reasoning. ]
 [a] No. The name of the first argument to `pnorm()` is not `x`. [You can't always know what are the names of the arguments to the basic built-in functions. So use them without naming the argument.]
 
-**arg15** Will the statement `pnorm(3, mean=4, sd=6)` give the same result as `pnorm(3, sd=6, mean=4)`?  [M4]
+**arg15** Will the statement `pnorm(3, mean=4, sd=6)` give the same result as `pnorm(3, sd=6, mean=4)`?  [M04]
 
 [a] Yes. [The names for the arguments tell R how each argument should be used in the function.]
 [] No. The arguments are different. [When an argument is used with it's name, it can go anywhere in the argument list.]
 
-**arg16** Will the statement `pnorm(3, mean=4, sd=6)` give the same result as `pnorm(3, sd=4, mean=6)`?  [M4]
+**arg16** Will the statement `pnorm(3, mean=4, sd=6)` give the same result as `pnorm(3, sd=4, mean=6)`?  [M04]
 
 [] Yes [Look carefully at the value given to each argument.]
 [a] No [In the first statement, the mean is set to 4, while in the second it's set to 6.]
 
-**arg17** What is the value of `sin(180)`? [M4]
+**arg17** What is the value of `sin(180)`? [M04]
 
 [a] -0.80 [The argument to trigonometric functions is interpreted by R to be in **radians**.]
 [] 0 [This would be right if sine interpreted its argument in *degrees*. But arguments to the trigonometric functions in R and most other languages are in **radians**." $\sin(\pi) = 0$.]
 [] 0.80 [You've got the sign incorrect.]
 [] 1 [The argument to `sin()` is in radians.]
 
-**desc01** What is the value of `16^1/2`? [M4]
+**desc01** What is the value of `16^1/2`? [M04]
 
 [] 4 [This would be right if the exponent were in grouping parentheses, e.e. `16^(1/2)`. Without those parentheses, the computer reads `16^1/2` as `(16^1) / 2`]
 [a] 8
 
-**desc02** What is the value of `16^(1/2)`? [M4]
+**desc02** What is the value of `16^(1/2)`? [M04]
 
 
 [a] 4 [Since the `(1/2)` is in grouping parentheses, the expression is asking for 16 to the one-half power, in other words the square root of 16.]
 [] 8
 
-**desc03** Suppose `n <- 3`. What will be the value of `2^n-1`? [M4]
+**desc03** Suppose `n <- 3`. What will be the value of `2^n-1`? [M04]
 
 
 [] 4 [Without grouping parentheses around `n-1` the computer interprets `2^n-1` as `(2^n) - 1`]
 [a] 7
 [] 8 [What about the `-1` in the expression?]
 
-**desc04** Suppose `n <- 3`. What will be the value of `2^(n-1)`? [M4]
+**desc04** Suppose `n <- 3`. What will be the value of `2^(n-1)`? [M04]
 
 [a] 4
 [] 7 [The grouping parentheses around `(n-1)` mean that the calculation is effectively `2^2`, giving 4.]
 [] 8 [What about the `-1` in the expression?]
 
-**M4-01** Which command made this plot? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-05.png"></br> [M4]
+**M4-01** Which command made this plot? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-05.png"></br> [M04]
 
 [+] `slice_plot(x^2 ~ x, domain(x=c(-3,3)))`
 [] `plot(x^2 ~ x, domain=c(-3,3))` [Two things are wrong here: 1) the R/mosaic unction to draw graphs of functions of one variable is `slice_plot()`, not `plot`; 2) the graphics domain should be set tis way: `domain(x=c(-3,3))`]
@@ -180,14 +180,14 @@
 [] `slice_plot(x^2 ~ x, x=c(-3,3))` [The argument that sets the graphics domain needs to be *inside* `domain()`, like this: `domain(x=c(-3,3))]`
 [] None of them correspond to the plot.
 
-**M4-02** Which command made this plot? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-04.png"></br> [M4]
+**M4-02** Which command made this plot? <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/M3/M3-14-04.png"></br> [M04]
 
 [+] `slice_plot(pnorm(x) ~ x, domain(x=c(-4, 4)))`
 [] `slice_plot(pnorm(x) ~ x, domain(x=(-4, 4))` [The end-points of the domain need to be collected by the function `c()`, so the argument to `domain()` should be `x=c(-4,4)` not `x=(-4, 4)`]
 [] `slice_plot(pnorm(x) ~ y, domain(x=c(-4, 4)))` [The name of the input to the function being graphed, `x` here, needs to be stated on the right-hand side of the tilde expression. So use `pnorm(x) ~ x` rather than `pnorm(x) ~ y`]
 [] None of them correspond to the plot.
 
-**M4-03** Only one of the following commands will successfully generate the graph of a function. Which one? [M4]
+**M4-03** Only one of the following commands will successfully generate the graph of a function. Which one? [M04]
 
 [+] `slice_plot(exp(y) ~ y, domain(y=c(-4, 4)))` [Perhaps you were mislead by my using `y` as the name of the input to the function. You can use whatever name you like so long as you use it **consistently** in the whole command.]
 [] `slice_plot(pnorm(x) ~ x, domain(y=c(-4, 4)))` [The domain has been specified using the name `y` rather than the input name used in the tilde expression.]
