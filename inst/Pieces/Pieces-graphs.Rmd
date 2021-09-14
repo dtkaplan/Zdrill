@@ -1,0 +1,32 @@
+---
+title: "Graphics for Pieces questions"
+author: "Daniel Kaplan"
+---
+
+```{r include=FALSE}
+library(mosaic)
+library(mosaicCalc)
+save_graph <- function(P, filename, font_size=16) {
+  ggsave(filename, P + theme_bw(base_size = font_size), device="png", units="cm", width=10, scale=1, height=6, dpi="screen")
+}
+
+```
+
+```{r}
+f1 <- makeFun(ifelse(x > 1, 1, x^2) ~ x)
+f2 <- makeFun(ifelse(x > 0, sin(x), x) ~ x)
+f3 <- makeFun(ifelse(abs(x) > 1, x, x^3) ~ x)
+f4 <- makeFun(ifelse(abs(x) > 1, x^3, x) ~ x)
+f5 <- makeFun(ifelse(abs(x) > 1, x, exp(x^2)) ~ x)
+P1 <- slice_plot(f1(x) ~ x, domain(x=c(-2, 2)))
+P2 <- slice_plot(f1(x) ~ x, domain(x=c(-2, 2)))
+P3 <- slice_plot(f1(x) ~ x, domain(x=c(-2, 2)))
+P4 <- slice_plot(f1(x) ~ x, domain(x=c(-2, 2)))
+P5 <- slice_plot(f1(x) ~ x, domain(x=c(-2, 2)))
+
+save_graph(P1, "Pieces-01.png")
+save_graph(P2, "Pieces-02.png")
+save_graph(P3, "Pieces-03.png")
+save_graph(P4, "Pieces-04.png")
+save_graph(P5, "Pieces-05.png")
+```
