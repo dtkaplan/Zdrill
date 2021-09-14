@@ -15,10 +15,10 @@ save_graph <- function(P, filename) {
 ```{r}
 slice_plot(dnorm(t, 2, 1) ~ t, domain(t=c(-5,5))) %>% 
   gf_refine(scale_x_continuous(breaks = -5:5)) %>%
-  save_graph("M08-01.png")
+  save_graph("M06-01.png")
 
 slice_plot(dnorm(t, -2, 2) ~ t, domain(t=c(-5,5))) %>% 
   gf_refine(scale_x_continuous(breaks = -5:5)) %>%
-  save_graph("M08-02.png")
+  save_graph("M06-02.png")
 
 ```
