@@ -1,0 +1,117 @@
+
+**D01**   Which pattern-book function is the **derivative** of the sigmoid function pnorm()? That is, $${\large \text{pnorm}(x)}  \underset{\scriptsize \text{anti-diff}}{{\stackrel{\text{diff}}{\ \ \ \ {\Huge\rightleftharpoons}\ \ \ }}}  {\LARGE ?}$$  [Pattern-book derivs]
+
+[] Reciprocal $1/x$  [The anti-derivative of the reciprocal is the natural logarithm.]
+[] Exponential $e^x$ [The anti-derivative of the exponential is the exponential.]
+[] Sinusoid $\sin(x)$  [The anti-derivative of a sinusoid is a shifted sinusoid.]
+[+] Gaussian dnorm(x)  [The anti-derivative of the gaussian is the sigmoid.]
+[] Constant $1$ [The anti-derivative of the constant function is the identity function $x$.]
+
+**D02** Which pattern-book function is the **anti-derivative** of the reciprocal $1/x$? That is, $${\LARGE ?}  \underset{\scriptsize \text{anti-diff}}{{\stackrel{\text{diff}}{\ \ \ \ {\Huge\rightleftharpoons}\ \ \ }}}  {\large \frac{1}{x}}$$<br> <br> NOTE: Differentiation produces a "child" function from a "parent" function. The child is the derivative of the parent. Putting the relationship the other way, the parent is the **anti-derivative** of the child. "Derivative" and "anti-derivative" are two ways of looking at the same relationship between a pair of functions. So, if $f(x)$ is the derivative of $F(x)$, then $F(x)$ is the anti-derivative of $f(x)$. [Pattern-book derivs]
+
+[] Reciprocal $1/x$  [The derivative of the reciprocal is $- x^{-2}$.]
+[+] Logarithm $\ln(x)$ [The derivative of the logarithm is the reciprocal $1/x$.]
+[] Sinusoid $\sin(x)$  [The derivative of a sinusoid is a shifted sinusoid.]
+[] Gaussian $\text{dnorm(x)}$  [The derivative of the gaussian is $- x \text{dnorm}(x)$, which is NOT one of our pattern book functions..]
+[] Constant $1$ [The derivative of the constant function is the zero function.]
+
+**D03** Which pattern-book function is the **anti-derivative** of the gaussian $\text{dnorm()}$? That is, $${\LARGE ?}  \underset{\scriptsize \text{anti-diff}}{{\stackrel{\text{diff}}{\ \ \ \ {\Huge\rightleftharpoons}\ \ \ }}}  {\large \text{dnorm}(x)}$$<br> <br> NOTE: Differentiation produces a "child" function from a "parent" function. The child is the derivative of the parent. Putting the relationship the other way, the parent is the **anti-derivative** of the child. "Derivative" and "anti-derivative" are two ways of looking at the same relationship between a pair of functions. So, if $f(x)$ is the derivative of $F(x)$, then $F(x)$ is the anti-derivative of $f(x)$. In other words: $${\large F(x)}  \underset{\scriptsize \text{anti-diff}}{{\stackrel{\text{diff}}{\ \ \ \ {\Huge\rightleftharpoons}\ \ \ }}}  {\Large f(x)}$$ [Pattern-book derivs]
+
+[] Reciprocal $1/x$  [The derivative of the reciprocal is $- x^{-2}$.]
+[] Logarithm $\ln(x)$ [The derivative of the logarithm is the reciprocal $1/x$.]
+[+] Sigmoid $\text{pnorm(x)}$  [The derivative of the sigmoid is a gaussian.]
+[] Gaussian $\text{dnorm(x)}$  [The derivative of the gaussian is $- x \text{dnorm}(x)$, which is NOT one of our pattern book functions..]
+[] Constant $1$ [The derivative of the constant function is the zero function.]
+
+**D04** What is the **derivative** of the power-law function $x^p$?i That is, $${\Large x^p}  \underset{\scriptsize \text{anti-diff}}{{\stackrel{\text{diff}}{\ \ \ \ {\Huge\rightleftharpoons}\ \ \ }}}  {\LARGE ?}$$   [Pattern-book derivs]
+
+[] $p\, x^p$
+[] $(p-1)\, x^p$
+[+] $p\, x^{p-1}$
+[] $(p-1)\, x^{p-1}$
+[] $\frac{1}{p} x^{p+1}$
+
+
+**D05**   There are two pattern-book functions whose **second** derivative is proportional to the function itself. Which are they?  [Pattern-book derivs]
+
+[+] Exponential and sinusoid  
+[] Exponential and sigmoid [The second derivative of the sigmoid is $-x\, \text{dnorm}(x)$.]
+[] Exponential and logarithm  [The second derivative of the logarithm is $-x^{-2}$]
+[] Sinusoid and gaussian  [The second derivative of the gaussian is far from obvious at first glance: $(x^2 - 1) \text{dnorm}(x)$. Don't freak out; you aren't expected to memorize this one!]
+
+
+**D06** What is the **derivative** of $t^5$ with respect to $t$? That is, $${\Large t^5}  \underset{\scriptsize \text{anti-diff}}{{\stackrel{\text{diff}}{\ \ \ \ {\Huge\rightleftharpoons}\ \ \ }}}  {\Large ?}$$[Pattern-book derivs]
+
+[+] $5 t^4$ 
+[] $4 t^5$ [Remember, $\partial_t t^p = p\, t^{p-1}$]
+[] $\frac{1}{5} t^4$  
+[] $\frac{1}{4} t^5$
+
+
+**D07**  What is $\partial_x x^2$?  [Pattern-book derivs]
+
+[] $2 x$ [As per the power-law rule for differentiation.] 
+[+] $2$
+[] $2 x^2$
+[] $2/x$
+
+
+**D08**   What is $\partial_t \sin(x)$   [Pattern-book derivs]
+
+[] $\cos(x)$ [Tricked you! We asked about the partial with respect to $t$, not the partial with respect to $x$. There's no $t$ in $\sin(x)$. So far as $t$ is concerned, $\sin(x)$ is a constant.]
+[+] 0 
+[] $-\sin(x)$  [Tricked you! We asked about the partial with respect to $t$, not the partial with respect to $x$. There's no $t$ in $\sin(x)$. So far as $t$ is concerned, $\sin(x)$ is a constant.]
+[] $-\cos(x)$  [Tricked you! We asked about the partial with respect to $t$, not the partial with respect to $x$. There's no $t$ in $\sin(x)$. So far as $t$ is concerned, $\sin(x)$ is a constant.]
+
+
+**D09** Suppose you know only this one fact about $f(x)$, that $\partial_{xx}\, f(7.3) = 1.6$. Which of these statements must be true?  [Pattern-book derivs]
+
+[] $f(x)$ is increasing at $x=7.3$. [The first derivative $\partial_x f(x)$ would tell you about whether the function is increasing or decreasing. The second derivative $\partial_{xx} f(x)$ tells you about something else.]
+[] $f(x)$ is concave up and decreasing at $x=7.3$ [Second derivatives tell you about concavity, but not about whether the function is increasing or decreasing.]
+[] $f(x)$ is concave up at $x=7.3$ [The 2nd derivative tells you **only** about the concavity of a function. It has nothing to say about the value of the slope.]
+[] $f(x)$ is concave up at $x=7.3$, but eventually it will become concave down.  [In a graph of a function, the second derivative corresponds to concavity. But knowing only the numerical value for the second derivative at a single input value does not tell you what the function is doing anywhere else.]
+
+
+**D10** If $f(x)$ is discontinuous at $x=5$, can it possibly be **smooth** at $x=6$?  [Pattern-book derivs]
+
+[+] Yes  [Discontinuity of a function at one input doesn't tell you what the function is doing at another input.]
+[] No [We told you something about $f(x)$ at $x=5$. Just knowing that doesn't tell you about $f(x)$ at other inputs.]
+
+
+**D11** If $g(x)$ is discontinuous at $x=1$, what will be the value of $\partial_x g(x)$ at $x=1$?   [Pattern-book derivs]
+
+[] Depends on how big the gap is at the discontinuity.
+[] 0
+[] $1/x$ 
+[a] The derivative isn't defined at a discontinuity.
+
+**D12**   Which of the following is the correct construction for $\partial_t g(t)$?   [Pattern-book derivs]
+
+[+] $\lim_{h \rightarrow 0} \frac{g(t + h) - g(t)}{h}$
+[] $\lim_{h \rightarrow 0} \frac{g(t + h) - g(t)}{t}$ [The division should be by $h$, not by $t$.]
+[] $\lim_{h \rightarrow 0} \frac{g(t) - g(t+h)}{h}$ [This will be the $- \partial_t g(t)$.]
+[] $\lim_{x \rightarrow 0} \frac{g(t + h) - g(t)}{h}$ [$x$ has nothing to do with it, so $\lim_{x \rightarrow 0}$ means nothing in this context.]
+
+**D13** Which of these is a reasonable definition of a derivative?   [Pattern-book derivs]
+
+[+] A derivative is a function whose value tells, for any input, the instantaneous rate of change of the function from which it was derived.
+[] A derivative is the slope of a function. [For functions that aren't straight lines, it doesn't mean anything to speak of "the slope" because the slope varies from place to place. Always remember that the derivative of a function is another **function**.]
+[] A derivative is a function whose value tells, for any input, the instantaneous change of the function from which it was derived. [Not a bad start but a crucial word was left out. It should say, "the instantaneous **rate** of change". "Instantaneous" and "rate" go hand in hand.]
+
+
+**D14**   Which one of these is **not** the derivative of a pattern-book function?   [Pattern-book derivs]
+
+[] Reciprocal [The reciprocal is the derivative of the logarithm.]
+[] Zero [Zero is the derivative of the constant function.]
+[] One [The constant function 1 is the derivative of the identity function $x$.]
+[+] Sigmoid [There is some function whose derivative is the sigmoid, but it's not a function that we've discussed and it's not much (or ever!?) used in modeling.]
+
+**D15** Which of the following shapes of functions is **not** allowed? You are **strongly** advised to try to draw each shape.  [Pattern-book derivs]
+
+[] Increasing and concave up.
+[] Decreasing and concave up.
+[] Increasing and concave down.
+[] Decreasing and concave down.
+[] None of them are allowed.
+[a] All of them are allowed. [The only restriction on mathematical functions is that for any given input, there can be at most one output.]
+

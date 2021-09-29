@@ -39,7 +39,7 @@
 [+] `ifelse(abs(x) > 1, x, exp(x^2)) ~ x`
 
 
-**dim01** Consider these quantities:<br>$a = 25$ ft <br>$b = 3$ hours<br>$c = 4$<br>$d = 1$ meter<br>$e = 2.718$<br> Is this combination dimensionally  alid? $$a / c$$ Why or why not?[Dimensions]
+**dim01** Consider these quantities:<br>$a = 25$ ft <br>$b = 3$ hours<br>$c = 4$<br>$d = 1$ meter<br>$e = 2.718$<br> Is this combination dimensionally valid? $$a / c$$ Why or why not?[Dimensions]
 
 [+] Division can accommodate any two quantities, regardless of dimension.
 [] $c$ is a dimensionless quantity. [$c$ is dimensionless, but that's not a complete explanation. For instance, $a + c$ would not be dimensionally valid.]
