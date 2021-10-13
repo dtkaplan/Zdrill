@@ -1,0 +1,128 @@
+**D01** Which of the derivative rules should you use to find $$\partial_t e^{t^2}\ ?$$  [Deriv rules]
+
+[] The constant multiplier rule
+[] The linear combination rule
+[] The product rule
+[a] The chain rule
+[] No rule needed, it's so basic.
+
+**D02** Which of the derivative rules should you use to find $$\partial_t e^{x^2}\ ?$$  [Deriv rules]
+
+[] The constant multiplier rule
+[] The linear combination rule
+[] The product rule
+[] The chain rule [Tricked you! Pay close attention to the subscript in $\partial_t$.]
+[a] No rule needed, it's so basic. [There's no dependence on $t$ in the function being differentiated, so the derivative is simply zero.]
+
+**D03** Which of the derivative rules should you use to find $$\partial_t e^t \sin(t)\ ?$$  [Deriv rules]
+
+[] The constant multiplier rule
+[] The linear combination rule
+[a] The product rule [The function is the product of $\sin(t)$ and $e^t$.]
+[] The chain rule
+[] No rule needed, it's so basic.
+
+**D04** Which of the derivative rules should you use to find $$\partial_t e^t \sin(x)\ ?$$  [Deriv rules]
+
+[a] The constant multiplier rule
+[] The linear combination rule
+[] The product rule [This was a trick. So far as $\partial_t$ is concerned, $\sin(x)$ is a constant.]
+[] The chain rule
+[] No rule needed, it's so basic.
+
+**D05** Which of the derivative rules should you use to find $$\partial_t \ln(t)\ ?$$  [Deriv rules]
+
+[] The constant multiplier rule
+[] The linear combination rule
+[] The product rule [It's just a pattern book function. You should have these memorized.]
+[] The chain rule  [It's just a pattern book function. You should have these memorized.]
+[a] No rule needed, it's so basic. [You've already memorized that $\partial_t \ln(t) = 1/t$.]
+
+**D06** Which of the derivative rules should you use to find $$\partial_t\, t\, e^{-t}\ ?$$  [Deriv rules]
+
+[] The constant multiplier rule
+[] The linear combination rule
+[a] The product rule
+[] The chain rule  [You could argue that you'll need the chain rule, too, in order to find $\partial_t e^{-t}$. But before you get there, you'll need the product rule.]
+[] No rule needed, it's so basic.
+
+**D07** Which of the derivative rules should you use to find $$\partial_x\ 37 x^5\ ?$$  [Deriv rules]
+
+[a] The constant multiplier rule [The result will be 37 times $\partial_x x^5$. (Since you've memorized the derivatives of power-law functions, you know $\partial_x x^5 = 5 x^4$.)]
+[] The linear combination rule
+[] The product rule [This is simply multiplying the power-law function $x^5$ by 37. No need for the product rule.]
+[] The chain rule  [There is no function composition here.]
+[] No rule needed, it's so basic.
+
+**D08** Which of the derivative rules should you use to find $$\partial_x\ 19\ ?$$  [Deriv rules]
+
+[] The constant multiplier rule
+[] The linear combination rule
+[] The product rule [This is simply multiplying the power-law function $x^5$ by 37. No need for the product rule.]
+[] The chain rule
+[a] No rule needed, it's so basic. [The derivative of a constant is always zero.]
+
+**D09** Which of the derivative rules should you use to find $$\partial_x\ 15 x^2 - 3 x + 7 \ln(x)\ ?$$  [Deriv rules]
+
+[] The constant multiplier rule [But there are several functions being combined.]
+[a] The linear combination rule [The functions being combined are $x^2$, $x$, and $\ln(x)$, which respectively have derivatives $2x$, 1, and $1/x$.]
+[] The product rule [No products here.]
+[] The chain rule  [No function composition here.]
+[] No rule needed, it's so basic.
+
+**D10** What is $\partial_x\ 15 x^2 - 3 x + 7 \ln(x)$?  [Deriv rules]
+
+[] $15 x - 3 + 7/x$ [The first term should be $2\times 15 x = 30 x$.]
+[+] $30 x - 3 + 7/x$
+[] $30 x - 3x + 7/x$ [Forgot to differentiate the middle term.]
+[] $30 x - 3 - 7/x$ [There's no negative sign on the 7.]
+
+**D11** What is $\partial_t e^k + \ln(e^2) - t$? [Deriv rules]
+
+[+] -1
+[] 0
+[] $e^{k} + 1/e$ [From the perspective of $\partial_t$, both $e^k$ and $\ln(e^2)$ are constants. the only term that depends on $t$ is the last one, $-t$.]
+[] $k e^{k} + 2 / e - t$
+
+**D12** What is $\partial_{x} \ln(x)/x^2$? (Hint: You can write the function in a simpler way.) [Deriv rules]
+
+[] $-2 x^{-1} \ln(x)$
+[] $-2 x^{-3} \ln(x)$
+[+] $x^{-3} \left(1 - 2 \ln(x)\right)$
+[] $-2 x^{-3} \left(1/x - 1\right)$
+
+**D13** What is $\partial_{t} \left(4 \sin(2\pi t) - 5\right)$?  [Deriv rules]
+
+[] $4 \cos(2\pi t) - 5$
+[] $4 \pi \cos(2 \pi t)$
+[+] $8 \pi \cos(2 \pi t)$
+[] $8 \cos(2 \pi t)$
+
+**D14** What is $\partial_{t} \left(7 + 8 t^2 + 3 t^4\right)$?  [Deriv rules]
+
+[+] $16 t + 12 t^3$
+[] $8 t + 4 t^3$
+[] $16 t^2 + 9 t^3$
+[] $4 t + 12 t^2$
+
+**D15** The derivative $\partial_x \text{dnorm}(x) = - x\, \text{dnorm}(x)$. What is $$\partial_x \text{dnorm}\left(\frac{x^2}{4}\right)\ ?$$  [Deriv rules]
+
+[+] $- \frac{x^3}{8} \text{dnorm}\left(\frac{x^2}{4}\right)$
+[] $ - \frac{x}{2} \text{dnorm}\left(\frac{x^2}{4}\right)$
+[] $ - \frac{x}{8} \text{dnorm}\left(\frac{x^2}{4}\right)$
+[] $ - \frac{x^2}{2} \text{dnorm}\left(\frac{x^2}{4}\right)$
+
+**D16** What is $\partial_{t} \left(6 t - 3 t^2 + 2 t^4\right)$?  [Deriv rules]
+
+[+] $6 - 6 t + 8 t^3$
+[] $6 - 3 t + 6 t^3$
+[] $-3 t + 6 t^3$
+[] $6 - 3 t + 8 t^2$
+
+**D17** What is $\partial_t \ln(t^2 + 1)$? [Deriv rules]
+
+[+] $\frac{2t}{t^2+1}$
+[] $1/{t^2 + 1}$
+[] $1/2t$
+[] $2 t \ln(t^2 + 1)$
+
