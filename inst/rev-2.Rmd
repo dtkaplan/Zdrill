@@ -1,7 +1,7 @@
 
 
 
-**r2-01** Which input is a positive-going zero-crossing of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-01.png" width="80%"> [rev-2]
+**r2-01** Which input is a positive-going zero-crossing of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-01.png" width="80%"> [Quiz-2]
 
 [a] $t = -5$
 []  $t = -2.5$
@@ -9,7 +9,7 @@
 []  $t = 1.25$
 []  $t = 2.5$
 
-**r2-02** Which input is a negative-going zero-crossing of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [rev-2]
+**r2-02** Which input is a negative-going zero-crossing of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [Quiz-2]
 
 []  $t = -2.5$
 []  $t = -1.25$
@@ -17,7 +17,7 @@
 []  $t = 1.25$
 []  $t = 2.5$
 
-**r2-03** Which of these is an argmax of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [rev-2]
+**r2-03** Which of these is an argmax of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [Quiz-2]
 
 []  $t = -2.5$
 [a]  $t = -1.25$
@@ -25,7 +25,7 @@
 []  $t = 1.25$ [That's an argmin!]
 []  $t = 2.5$
 
-**r2-04** Which of these is an argmin of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [rev-2]
+**r2-04** Which of these is an argmin of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-02.png" width="80%"> [Quiz-2]
 
 []  $t = -2.5$
 []  $t = -1.25$ [That's an argmax!]
@@ -33,7 +33,7 @@
 [a]  $t = 1.25$ 
 []  $t = 2.5$
 
-**r2-05** Which of these is the amplitude of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [rev-2]
+**r2-05** Which of these is the amplitude of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [Quiz-2]
 
 [] 0
 [] 1
@@ -41,7 +41,7 @@
 [] 3
 [] 4 [For a sinusoid, the amplitude is **half** the vertical peak-to-trough distance.]
 
-**r2-06** Which of these is the baseline of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [rev-2]
+**r2-06** Which of these is the baseline of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [Quiz-2]
 
 [] 0
 [a] 1
@@ -49,7 +49,7 @@
 [] 3
 [] 4 
 
-**r2-07** Which of these is the max of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [rev-2]
+**r2-07** Which of these is the max of the function graphed?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [Quiz-2]
 
 [] 0
 [] 1
@@ -57,7 +57,7 @@
 [a] 3
 [] 4 [4 is close to the argmax, but we're asking about the max.]
 
-**r2-08** One of the following choices is the standard deviation of the function graphed. Which one?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-04.png" width="80%"> [rev-2]
+**r2-08** One of the following choices is the standard deviation of the function graphed. Which one?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-04.png" width="80%"> [Quiz-2]
 
 [] 0 [A gaussian with 0 standard deviation would be infinitely narrow and infinitely high!]
 [] 1
@@ -65,14 +65,14 @@
 [] 3 [Remember the rule of thumb: half-width at half-height]
 [] 4 
 
-**r2-09** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly zero? [rev-2]
+**r2-09** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly zero? [Quiz-2]
 
 [+] $(x=0, y=6)$
 [] $(x=1, y=5)$
 [] $(x=-2, y=6)$
 [] $(x=0, y=1)$
 
-**r2-10** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly 1? [rev-2]
+**r2-10** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly 1? [Quiz-2]
 
 
 [] $(x=0, y=6)$
@@ -80,14 +80,14 @@
 [] $(x=-2, y=6)$
 [] $(x=0, y=1)$
 
-**r2-11** Which of these is a positive-going zero crossing of $g(t)$? $$g(t) \equiv \sin\left(\frac{2\pi}{5}t-3\right)$$ [rev-2]
+**r2-11** Which of these is a positive-going zero crossing of $g(t)$? $$g(t) \equiv \sin\left(\frac{2\pi}{5}t-3\right)$$ [Quiz-2]
 
 [a] $t=15/2\pi$ [This makes the $\frac{2\pi}{5}t$ component go to 3, which cancels out the -3.]
 [] $t = 2 \pi/15$
 [] $t = 3$ [Notice that the argument is **not** $\frac{2\pi}{5}(t-3)$.]
 [] None of the above
 
-**r2-12** What is the period of $g(t)$? $$g(t) \equiv \text{dnorm}\left(\frac{2\pi}{5}(t-3)\right)$$ [rev-2]
+**r2-12** What is the period of $g(t)$? $$g(t) \equiv \text{dnorm}\left(\frac{2\pi}{5}(t-3)\right)$$ [Quiz-2]
 
 [] 1
 [] 5
@@ -95,7 +95,7 @@
 [] $5/2\pi$
 [a] $g(t)$ isn't periodic. [The only one of our basic modeling functions that is period is $\sin()$. The gaussian, that is, $\text{dnorm}()$, has just one bump and therefore isn't periodic.]
 
-**r2-13** What is the period of $g(t)$? $$g(t) \equiv \frac{5}{\sin(2 \pi t)}$$  [rev-2]
+**r2-13** What is the period of $g(t)$? $$g(t) \equiv \frac{5}{\sin(2 \pi t)}$$  [Quiz-2]
 
 [a] 1
 [] 5 [Hint: 5 isn't inside the $\sin()$ parentheses.]
@@ -103,7 +103,7 @@
 [] $5/2\pi$ [Hint: 5 isn't inside the $\sin()$ parentheses.]
 [] $g(t)$ isn't periodic. [Since the $\sin()$ is periodic, $1/\sin()$ is also periodic.]
 
-**r2-14** which of the following is a positive-going zero crossing of $g(t)$? $$\sin\left(\frac{2 \pi}{5} (t - 3) \right)$$ [rev-2]
+**r2-14** which of the following is a positive-going zero crossing of $g(t)$? $$\sin\left(\frac{2 \pi}{5} (t - 3) \right)$$ [Quiz-2]
 
 [] $t=-5$ [5 isn't in the $\sin()$ parentheses.]
 [] $t=-3$ [When the argument to $\sin()$ is zero, the function output is at zero and increasing.]
@@ -111,7 +111,7 @@
 [a] $t=3$ [$t=3$ makes the whole argument zero.]
 [] $t=5$ [5 isn't in the $\sin()$ parentheses.]
 
-**r2-15** What is the period of the function $\sin(6\pi t)$?[rev-2]
+**r2-15** What is the period of the function $\sin(6\pi t)$?[Quiz-2]
 
 [a] 1/3
 [] 1/2
@@ -119,14 +119,14 @@
 [] 3
 [] 6
 
-**r2-16** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function steepest in the x-direction? [rev-2]
+**r2-16** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function steepest in the x-direction? [Quiz-2]
 
 [] $(x=0, y=6)$
 [] $(x=1, y=5)$
 [] $(x=-2, y=6)$
 [+] $(x=0, y=1)$
 
-**r2-17** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly $-1$? [rev-2]
+**r2-17** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function output nearly $-1$? [Quiz-2]
 
 
 [] $(x=0, y=6)$
@@ -134,7 +134,7 @@
 [+] $(x=-2, y=6)$
 [] $(x=0, y=1)$
 
-**r2-18** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function practically flat? [rev-2]
+**r2-18** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>At which of these inputs is the function practically flat? [Quiz-2]
 
 
 [+] $(x=0, y=6)$
@@ -142,7 +142,7 @@
 [] $(x=-2, y=3)$
 [] $(x=0, y=1)$
 
-**r2-19** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>You are standing on the input point $(x=-1,y=4)$. In terms of the compass points (where north would be up and east to the right), which direction points most steeply uphill from where you are standing. [rev-2]
+**r2-19** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>You are standing on the input point $(x=-1,y=4)$. In terms of the compass points (where north would be up and east to the right), which direction points most steeply uphill from where you are standing. [Quiz-2]
 
 
 [a] NE
@@ -150,7 +150,7 @@
 [] SW [It's steep in this direction, but **downhill**!]
 [] NW
 
-**r2-20** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>You are standing on the input point $(x=2,y=1)$. In terms of the compass points (where north would be up and east to the right), which direction points most steeply uphill from where you are standing. [rev-2]
+**r2-20** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>You are standing on the input point $(x=2,y=1)$. In terms of the compass points (where north would be up and east to the right), which direction points most steeply uphill from where you are standing. [Quiz-2]
 
 
 [] NE [It's steep in this direction, but **downhill**!]
@@ -158,7 +158,7 @@
 [a] SW 
 [] NW
 
-**r2-21** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>You have been hiking all day and have reached map coordinate (x=2, y=2). You are completely exhausted. Time for a break. You want to walk along the hill, without any change of elevation. Which compass direction should you head in to get started?[rev-2]
+**r2-21** <img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-05.png" width="80%"><br>You have been hiking all day and have reached map coordinate (x=2, y=2). You are completely exhausted. Time for a break. You want to walk along the hill, without any change of elevation. Which compass direction should you head in to get started?[Quiz-2]
 
 
 [+] NW or SE
@@ -166,7 +166,7 @@
 [] NW but not SE [Flat works both ways. If NW keeps you on a contour, so will SE (at least instantaneously).]
 [] NE or SW [That's going downhill or uphill, respectively.]
 
-**r2-22** What's the period of this sinusoid?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [rev-2]
+**r2-22** What's the period of this sinusoid?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-03.png" width="80%"> [Quiz-2]
 
 [] 1
 [] 2
@@ -175,49 +175,49 @@
 [a] 5
 
 
-**r2-23** Which function(s) have $k < 0$?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-07.png" width="80%"> [rev-2]
+**r2-23** Which function(s) have $k < 0$?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-07.png" width="80%"> [Quiz-2]
 
 [] blue
 [a] black
 [] both
 [] neither 
 
-**r2-24** Which function(s) have $k < 0$?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-06.png" width="80%"> [rev-2]
+**r2-24** Which function(s) have $k < 0$?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-06.png" width="80%"> [Quiz-2]
 
 [] blue
 [] black
 [] both
 [a] neither [As the input gets bigger, both functions produce outputs that get further from their respective baselines. That' exponential growth.]
 
-**r2-25** Which function(s) have $k < 0$?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-08.png" width="80%"> [rev-2]
+**r2-25** Which function(s) have $k < 0$?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-08.png" width="80%"> [Quiz-2]
 
 [] blue [Exponential decay means that the function output gets closer and closer to baseline as the input gets bigger.]
 [] black
 [] both
 [a] neither [As the input gets bigger, both functions produce outputs that get further from their respective baselines. That' exponential growth.]
 
-**r2-26** One of the functions has a half-life, the other a doubling time. Which is bigger, the half-life or the doubling time?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-07.png" width="80%"> [rev-2]
+**r2-26** One of the functions has a half-life, the other a doubling time. Which is bigger, the half-life or the doubling time?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-07.png" width="80%"> [Quiz-2]
 
 [a] doubling time
 [] half-life
 [] about the same
 [] they aren't exponential, so the concept of half-life/doubling-time doesn't apply.
 
-**r2-27** What is the instantaneous rate of change of this function when the input is $t=-3$?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-09.png" width="80%"><br>(Choose the closest answer.) [rev-2]
+**r2-27** What is the instantaneous rate of change of this function when the input is $t=-3$?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-09.png" width="80%"><br>(Choose the closest answer.) [Quiz-2]
 
 [a] 0.5
 [] 1
 [] 1.5
 [] 2
 
-**r2-28** What is the average rate of change of this function on the interval $-5 < t < 5?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-09.png" width="80%"><br>(Choose the closest answer.) [rev-2]
+**r2-28** What is the average rate of change of this function on the interval $-5 < t < 5?<br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-09.png" width="80%"><br>(Choose the closest answer.) [Quiz-2]
 
 [a] 0.5 [Rise is 5, run is 10.]
 [] 1
 [] 1.5
 [] 2
 
-**r2-29** Consider the average rate of change of this function on the interval $-2 < t < 2$. <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-09.png" width="80%"><br>Which of these statements best describes that average rate of change. [rev-2]
+**r2-29** Consider the average rate of change of this function on the interval $-2 < t < 2$. <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/rev2/rev2-09.png" width="80%"><br>Which of these statements best describes that average rate of change. [Quiz-2]
 
 [] very close to 1/2
 [a] slightly less than 1
