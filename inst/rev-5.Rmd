@@ -1,0 +1,231 @@
+**PD01**  What is $\partial_x x$?  [Partial derivatives]
+
+[] $0$
+[a] $1$
+[] $x$
+[] $y$ [There's no $y$ in the problem.]
+
+**PD02**  What is $\partial_x y$?  [Partial derivatives]
+
+[a] $0$ [Because the function is constant with respect to $x$, which is the with-respect-to variable here.]
+[] $1$ [There is no $x$ in the function being differentiated.]
+[] $x$
+[] $y$ 
+
+**PD03**  What is $\partial_x a\, x$?  [Partial derivatives]
+
+[] $0$
+[a] $a$
+[] $x$
+[] $y$ 
+
+**PD04**  What is $\partial_x  x\, y$?  [Partial derivatives]
+
+[] $0$
+[] $1$ [But the "constant" multiplying $x$ is called $y$, not 1.]
+[] $x$ 
+[a] $y$ 
+
+**PD05**  What is $\partial_y  x\, y$?  [Partial derivatives]
+
+[] $0$
+[] $1$ [But the "constant" multiplying $y$ is called $x$, not 1.]
+[a] $x$ 
+[] $y$ 
+
+
+**PD06**  What is $\partial_x  A e^{kt}$?  [Partial derivatives]
+
+[a] $0$ [$x$ is the with-respect-to input, but there is no $x$ in the function being differentiated.]
+[] $A k e^{kx}$ [$x$ is the with-respect-to input, but there's no $x$ in the function being differentiated: the input is $t$.] 
+[] $t$ 
+
+**PD07**  What is $\partial_t  A e^{kt}$?  [Partial derivatives]
+
+[] $0$ 
+[a] $k A e^{kt}$
+[] $k A e^{kx}$ 
+[] $t A e^{kt}$ [You pulled down the wrong quantity from the exponent.] 
+
+**PD08**  What is $\partial_x  A x e^{kt}$?  [Partial derivatives]
+
+[] $0$ 
+[] $A x e^{kt}$ [You forgot to differentiate!]
+[] $A k x e^{kt}$ [You don't need to apply the chain rule to $e^{kt}$ since the with-respect-to input is $x$, not $t$.]
+[+] $A e^{kt}$ 
+
+**PD09**  What is $\partial_t  A x e^{kt}$?  [Partial derivatives]
+
+[] $0$ 
+[] $A k e^{kt}$ [What happened to the $x$? The with-respect-to input is $t$.]
+[+] $A k x e^{kt}$ 
+[] $A e^{kt}$ 
+
+**PD10**  What is $\partial_x \left[\strut a_0 + a_1 x + a_2 x^2 \right]$?  [Partial derivatives]
+
+[] $a_1 + a_2 x$
+[+] $a_1 + 2 a_2 x$
+[] $a_0 + a_1 x$ [The $a_0$ term got eliminated entirely by the differentiation.]
+[] 0
+
+**PD11**  What is $\partial_y \left[\strut a_0 + a_1 x + a_2 x^2 \right]$?  [Partial derivatives]
+
+[] $a_1 + a_2 x$
+[] $a_1 + 2 a_2 x$
+[] $a_1 + 2 a_2 y$ [There's no $y$ in the function being differentiated.]
+[+] 0 [The function being differentiated has no $y$, so the derivative with respect to $y$ must be 0. This is just a fancy way of saying that changing $y$ causes 0 change in the output of the function being differentiated.]
+
+**PD12**  What is $\partial_x \left[\strut a_0 + a_1 y + a_2 y^2 \right]$?  [Partial derivatives]
+
+[] $a_1 + a_2 x$
+[] $a_1 + 2 a_2 x$
+[] $a_1 + 2 a_2 y$ [There's no $y$ in the function being differentiated.]
+[+] 0 [The function being differentiated has no $x$, so the derivative with respect to $x$ must be 0.]
+
+**PD13**  What is $\partial_x \left[\strut a_0 + a_1 x + b_1 y + c x y \right]$?  [Partial derivatives]
+
+[+] $a_1 + cy$ 
+[] $a_1$ [What about the interaction term?]
+[] $a_1 + b1 + c$ 
+[] $a_1 + c$ [The last term is $c x y$, so differentiating with respect to $x$ leaves $cy$.]
+
+**PD14**  What is $\partial_y \left[\strut a_0 + a_1 x + b_1 y + c x y \right]$?  [Partial derivatives]
+
+[+] $b_1 + cx$
+[] $b_1$  [What about the interaction term?]
+[] $a_1 + b1 + c$ 
+[] $b_1 + c$ [The last term is $c x y$, so differentiating with respect to $y$ leaves $cy$.]
+
+**PD15**  What is $\partial_x \partial_y \left[\strut a_0 + a_1 x + b_1 y + c x y \right]$?  (Usually we would write $\partial_{xy}$ instead of $\partial_x \partial_y$, but they amount to the same thing.) [Partial derivatives]
+
+[+] $c$
+[] $a_1$  [This term got eliminated by the $\partial_y$ step.]
+[] $b_1$  [This term got eliminated by the $\partial_x$ step.]
+[] $0$ [The $c x y$ term survives both the $\partial_y$ step and the $\partial_x$ step.]
+
+
+**PD16**  What is $\partial_x \partial_x \left[\strut a_0 + a_1 x + b_1 y + c x y \right]$?  (Usually we would write $\partial_{xx}$ instead of $\partial_x \partial_x$, but they amount to the same thing.) [Partial derivatives]
+
+[] $c$ [This term survived the first $\partial_x$ step, leaving $cy$. But the second $\partial_x$ step eliminated the $cy$.]
+[] $a_1$  [This term got eliminated by the $\partial_y$ step.]
+[] $b_1$  [This term got eliminated by the $\partial_x$ step.]
+[+] $0$ [There's no term in this polynomial that can survive two successive differentiations by $x$.]
+
+**PD17**  What is $\partial_x \partial_x \left[\strut a_0 + a_1 x + b_1 y + c x y + a_2 x^2 + b_2 y^2 \right]$?  (Usually we would write $\partial_{xx}$ instead of $\partial_x \partial_x$, but they amount to the same thing.) [Partial derivatives]
+
+[+] $2 a_2$ 
+[] $a_2$  [But the first $\partial_x$ turned $a_2 x^2$ into $2 a_2 x$. The second $\partial_x$ strips off the $x$, leaving only $2 a_2$.]
+[] $c + a_2$  
+[] $0$ 
+
+**PD18**  What is $\partial_y \partial_x \left[\strut a_0 + a_1 x + b_1 y + c x y + a_2 x^2 + b_2 y^2 \right]$?  (Usually we would write $\partial_{yx}$ instead of $\partial_y \partial_x$, but they amount to the same thing.) [Partial derivatives]
+
+[+] $c$ 
+[] $2 a_2$ [$a_2 x^2$ doesn't survive $\partial_y$.]
+[] $2 b_2$ [$b_2 y^2$ doesn't survive $\partial_x$.] 
+[] $0$ 
+
+**PD19**  What is $\partial_x \left[\strut A x^n y^m \right]$?  [Partial derivatives]
+
+[+] $A n x^{n-1} y^m$
+[] $A n m x^{n-1} y^{m-1}$  [$\partial_x$ won't change the $y^m$ component of the product.]
+[] $A m x^{n} y^{m-1}$ [But the with-respect-to input is $x$!]
+[] $A y^m$
+
+**PD20**  What is $\partial_y \left[\strut A x^n y^m \right]$?  [Partial derivatives]
+
+[] $A n x^{n-1} y^m$ [But the with-respect-to input is $x$!]
+[] $A n m x^{n-1} y^{m-1}$  [$\partial_y$ won't change the $x^n$ component of the product.]
+[+] $A m x^{n} y^{m-1}$ 
+[] $A m y^{m-1}$
+
+**PD21**  What is $\partial_{xy} \left[\strut A x^n y^m \right]$?  [Partial derivatives]
+
+[] $A n x^{n-1} y^{m-1}$ 
+[+] $A n m x^{n-1} y^{m-1}$  
+[] $A m x^{n} y^{m-1}$ 
+[] $A m x^{n-1} y^{m-1}$
+
+**PD22** What is $\partial_x \left[\strut f(x) + y\right]$? [Partial derivatives]
+
+[+] $\partial_x f(x)$
+[] $\partial_x f(x) + 1$ [The $\partial_x$ eliminates the $y$ term.]
+[] $\partial_x f(x) + y$ [The $\partial_x$ eliminates the $y$ term.]
+[] $0$ 
+
+**PD23** What is $\partial_x \left[\strut f(x) + g(y)\right]$? [Partial derivatives]
+
+[+] $\partial_x f(x)$
+[] $\partial_x f(x) + \partial_x g(y)$ [Strictly speaking, you're right here. But of course $\partial_x g(y) = 0$, so there's no need for the second term in your answer.]
+[] $\partial_x f(x) + \partial_y g(y)$ [The $\partial_y$ can't appear from nowhere!]
+[] $0$ 
+
+**PD24** What is $\partial_y \left[\strut f(x) + g(y)\right]$? [Partial derivatives]
+
+[] $\partial_x f(x)$
+[] $\partial_x g(y)$ [You don't get to change the $\partial_y$ to a $\partial_x$!]
+[+] $\partial_y g(y)$ 
+[] 0
+
+**PD25** What is $\partial_x \partial_y \left[\strut f(x) + g(y)\right]$? [Partial derivatives]
+
+[] $\partial_x f(x)$
+[] $\partial_x \partial_y g(y)$ [OK, you could claim this is correct. But $\partial_x \partial_y g(y) = 0$, so there's a much simpler answer.]
+[] $\partial_y g(y)$ 
+[+] 0
+
+**PD26** What is $\partial_y \partial_y \left[\strut f(x) + g(y)\right]$? [Partial derivatives]
+
+[] $\partial_y g(y)$ [What about the second $\partial_y$?]
+[] 1
+[+] $\partial_{yy} g(y)$ 
+[] 0
+
+**PD27** What is $\partial_y  f(x) g(y)$? [Partial derivatives]
+
+[] $\partial_y g(y)$ 
+[+] $f(x)\ \partial_{y} g(y)$ 
+[] 0
+[] $g(y)\ \partial_y f(x)  + f(x) \ \partial_y g(y)$ [But $\partial_y f(x) = 0$, so there's a much simpler answer.]
+
+**PD28** What is $\partial_y  h(x,y) g(y)$? [Partial derivatives]
+
+[] $\partial_y g(y)$ 
+[] $g(y) \partial_y h(x, y)$ [You'll need to apply the product rule.]
+[] 0
+[+] $ g(y)\ \partial_y h(x,y) + h(x,y) \partial_y g(y)$ 
+
+**PD29** What is $\partial_x  h(x,y) g(y)$? [Partial derivatives]
+
+[] $\partial_x h(x, y)$ 
+[] $g(y)\ \partial_x h(x,y)  + h(x,y)\ \partial_x g(y)$ [But $\partial_y g(y) = 0$, so there's a much simpler answer.]
+[+] $g(y) \partial_x h(x, y)$ 
+[] $g(y) \partial_y h(x, y)$ [The $\partial_y$ can't come from nowhere!]
+
+
+**PD30** What is $\partial_{yx}  h(x,y) g(y)$? [Partial derivatives]
+
+[] $\partial_{yx} h(x, y)$ 
+[] $g(y) \partial_{yx} h(x,y) + h(x,y)\ \partial_y g(y)$ 
+[+] $(\partial_y g(y)) \ (\partial_x h(x, y)) + g(y)\ (\partial_{yx} h(x, y))$ 
+[] $(\partial_x g(y))\  (\partial_x h(x, y)) + g(y) (\partial_{xx} h(x, y) )$ [The $\partial_{xx}$ can't come from nowhere!]
+
+**PD31** What is the "with-respect-to" input in $\partial_y xy$? [Partial derivatives]
+
+[] $x$ [The "with-respect-to" input is *always* named by the subscript on $\partial$.]
+[+] $y$
+[] $1$ [This isn't an input!]
+
+
+**PD32** What is the "with-respect-to" input in $\partial_x y$? [Partial derivatives]
+
+[+] $x$
+[] $y$ [The "with-respect-to" input is *always* named by the subscript on $\partial$.]
+[] $1$ [This isn't an input!]
+
+**PD33** What is the "with-respect-to" input in $\partial_t y$? [Partial derivatives]
+
+[+] $t$
+[] $y$ [The "with-respect-to" input is *always* named by the subscript on $\partial$.]
+[] $1$ [This isn't an input!]
+
