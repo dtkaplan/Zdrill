@@ -229,3 +229,92 @@
 [] $y$ [The "with-respect-to" input is *always* named by the subscript on $\partial$.]
 [] $1$ [This isn't an input!]
 
+**Poly01**  In the polynomial $a_0 + a_x x + a_y y + a_{xy} xy$, what is the term $a_{xy}xy$ called?  [Polynomials]
+
+[+] Interaction term
+[]  Quadratic term
+[]  Linear term
+[]  Constant term
+
+**Poly02**  In the polynomial $a_0 + a_x x + a_y y + a_{xx} xx$, what is the coefficient on the interaction term?  [Polynomials]
+
+[+] 0 [You can treat a missing term as if it had a coefficient of zero.]
+[] $a_{xy}$ [There's no such coefficient in the polynomial.]
+[] $a_{xx}$
+[] $a_0$
+
+**Poly03** Imagine a second-order polynomial in three inputs: $x$, $y$, and $z$, like this: $$b_0 + b_x x + b_y y + b_z z + b_{xy} xy + b_{xz} xz + b_{xx} x^2 + b_{yy} y^2 + b_zz z^2\ .$$ All of the possible second-order (or less) terms are shown, except for one. Which term is missing?  [Polynomials]
+
+[+] the interaction between $y$ and $z$
+[] the quadratic term in $z$
+[] the linear term in $y$
+[] the constant term
+
+**Poly04** Here is a function $f(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-01.png"><br> In the Taylor polynomial approximation to $f(x)$ centered at $x=-2$, what will be the sign of the coefficient on the first-order term. Choose the best answer.  [Polynomials]
+
+[] positive
+[a] zero
+[] negative
+[] no such coefficient exists in a Taylor polynomial
+
+**Poly05** Here is a function $f(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-01.png"><br> In the Taylor polynomial approximation to $f(x)$ centered at $x=1$, what will be the sign of the coefficient on the first-order term. Choose the best answer.  [Polynomials]
+
+[a] positive
+[] zero
+[] negative
+[] no such coefficient exists in a Taylor polynomial
+
+**Poly06** Here is a function $f(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-01.png"><br> In the Taylor polynomial approximation to $f(x)$ centered at $x=1$, what will be the sign of the coefficient on the second-order term. Choose the best answer.  [Polynomials]
+
+[] positive
+[] zero
+[a] negative
+[] no such coefficient exists in a Taylor polynomial
+
+**Poly07** Here is a function $f(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-01.png"><br> In the Taylor polynomial approximation to $f(x)$ centered at $x=-4$, what will be the sign of the coefficient on the first-order term. Choose the best answer.  [Polynomials]
+
+[] positive
+[] zero
+[a] negative
+[] no such coefficient exists in a Taylor polynomial
+
+**Poly08** Here is a function $f(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-01.png"><br> In the Taylor polynomial approximation to $f(x)$ centered at $x=4$, what will be the sign of the coefficient on the second-order term. Choose the best answer.  [Polynomials]
+
+[a] positive
+[] zero
+[] negative
+[] no such coefficient exists in a Taylor polynomial
+
+**Poly09** Here is a function $f(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-01.png"><br> In the Taylor polynomial approximation to $f(x)$ centered at $x=4$, what will be the sign of the coefficient on the constant (zeroth-order) term. Choose the best answer.  [Polynomials]
+
+[] positive
+[] zero
+[a] negative
+[] no such coefficient exists in a Taylor polynomial
+
+**Poly10** Here is a function $f(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-01.png"><br> In the Taylor polynomial approximation to $f(x)$ centered at $x=3$, what will be the sign of the coefficient on the second-order term. Choose the best answer.  [Polynomials]
+
+[] positive
+[a] zero
+[] negative
+[] no such term exists in a Taylor polynomial
+
+**Poly11** Here is a function $f(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-01.png"><br> In the Taylor polynomial approximation to $f(x)$ centered at $x=0$, what will be the sign of the coefficient on the reciprocal term. Choose the best answer.  [Polynomials]
+
+[] positive
+[] zero
+[] negative
+[a] no such term exists in a Taylor polynomial
+
+**Poly12** Here is a function $g(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-03.png"><br> Two Taylor polynomials, centered on the same $x$ are shown. One is fifth-order, the other is third-order. Which is which?  [Polynomials]
+
+[a] The third-order polynomial is brown.
+[] The third-order polynomial is magenta. [The higher the order of the polynomial, the further away from the center it remains a good approximation to the function. The brown polynomial drifts away from the function before the magenta polynomial.]
+
+**Poly13** Here is a function $g(x)$: <br><img src="https://raw.githubusercontent.com/dtkaplan/Zdrill/main/inst/Polynomials/poly-02.png"><br> with a Taylor polynomial shown in magenta. What is the order of the polynomial?  [Polynomials]
+
+[] zero
+[] one
+[] two
+[] three
+[a] four [the tails of the polynomial point point in the same direction and there are three wiggles clearly visible.]
